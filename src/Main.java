@@ -13,6 +13,7 @@ public class Main {
 		for (Map.Entry<Integer, String> e : entries) {
 			System.out.println(e.getValue());
 			System.out.println();
+			System.out.println();
 		}
 	}
 }
