@@ -12,6 +12,7 @@ public class Main {
 		Set<Map.Entry<Integer, String>> entries = map.entrySet();
 		for (Map.Entry<Integer, String> e : entries) {
 			System.out.println(e.getValue());
+			System.out.println();
 		}
 	}
 }
