@@ -1,7 +1,6 @@
 package concurrency;
 
 
-import com.sun.webkit.dom.DOMWindowImpl;
 
 import static concurrency.WaitTest.success;
 

@@ -1,19 +1,26 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
+import java.io.IOException;
+import java.util.Scanner;
+import java.util.concurrent.CompletableFuture;
 
+/**
+ * @author O
+ * @version 1.0
+ * @date 2019/8/27
+ */
 public class Main {
-	public static void main(String[] args) {
-		Map<Integer, String> map = new HashMap<>();
-		map.put(1, "111");
-		map.put(2, "222");
-		map.put(3, "333");
-
-		Set<Map.Entry<Integer, String>> entries = map.entrySet();
-		for (Map.Entry<Integer, String> e : entries) {
-			System.out.println(e.getValue());
-			System.out.println();
-			System.out.println();
-		}
-	}
+    private static volatile int a=1;
+    public static void main(String[] args) throws Exception {
+        CompletableFuture.runAsync(()->{
+            while (true) {
+                if (a == 1) {
+                    System.out.println("a = 1");
+                } else {
+                    System.out.println("a = 2");
+                    break;
+                }
+            }
+        });
+        Thread.sleep(100L);
+        a=2;
+    }
 }

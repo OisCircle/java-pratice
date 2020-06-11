@@ -1,6 +1,5 @@
 package algorithm.array;
 
-import sun.awt.windows.ThemeReader;
 
 import java.util.HashMap;
 

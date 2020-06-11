@@ -1,6 +1,5 @@
 package algorithm.tree;
 
-import com.sun.media.sound.RIFFInvalidDataException;
 
 /**
  * <p>

@@ -27,4 +27,9 @@ class ListNode {
 		}
 		System.out.println("\n");
 	}
+
+	@Override
+	public String toString() {
+		return "val: " + val;
+	}
 }
