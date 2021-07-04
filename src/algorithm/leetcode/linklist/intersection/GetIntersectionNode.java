@@ -33,7 +33,7 @@ public class GetIntersectionNode {
         b1.next = c1;
         print(a1);
         print(b1);
-        System.out.println(getIntersectionNode(a1, b1).val);
+        System.out.println(getIntersectionNode2(a1, b1).val);
     }
     private static void print(ListNode head) {
         ListNode cur = head;
@@ -78,5 +78,27 @@ public class GetIntersectionNode {
             b = b.next;
         }
         return a;
+    }
+
+    public static ListNode getIntersectionNode2(ListNode headA, ListNode headB) {
+        ListNode a = headA, b = headB;
+        //控制只交换轨道一次
+        boolean aChanged = false, bChanged = false;
+        while (a != null && b != null) {
+            if (a == b) {
+                return a;
+            }
+            a = a.next;
+            b = b.next;
+            if (a == null && !aChanged) {
+                a = headB;
+                aChanged = true;
+            }
+            if (b == null && !bChanged) {
+                bChanged = true;
+                b = headA;
+            }
+        }
+        return null;
     }
 }
