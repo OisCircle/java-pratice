@@ -1,6 +1,8 @@
 package algorithm.leetcode.linklist.cycle;
 
 
+import algorithm.leetcode.linklist.ListNode;
+
 /**
  * 环形链表 II
  * <p>

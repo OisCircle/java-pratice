@@ -84,6 +84,7 @@ public class GetIntersectionNode {
         ListNode a = headA, b = headB;
         //控制只交换轨道一次
         boolean aChanged = false, bChanged = false;
+        //任意一个走完还是没相等说明没有AB链表相交
         while (a != null && b != null) {
             if (a == b) {
                 return a;

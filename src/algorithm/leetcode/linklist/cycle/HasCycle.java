@@ -1,5 +1,7 @@
 package algorithm.leetcode.linklist.cycle;
 
+import algorithm.leetcode.linklist.ListNode;
+
 /**
  * @author qiuchengquan
  * @since 2021/7/4
