@@ -1,8 +1,10 @@
-package algorithm.leetcode.linklist;
-
-import static java.lang.Math.min;
+package algorithm.leetcode.linklist.intersection;
 
 /**
+ * 相交链表
+ * <p>
+ * https://leetcode-cn.com/leetbook/read/linked-list/jjbj2/
+ *
  * @author O
  * @since 2020/3/31
  */

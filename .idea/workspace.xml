@@ -22,14 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9db0a2c-277a-4379-84e0-24e3c3091eb6" name="Default" comment="5/14">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle/HasCycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle/ListNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle/环形链表 II.drawio" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle/环形链表 II.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle/环形链表 II.png" afterDir="false" />
+    <list default="true" id="f9db0a2c-277a-4379-84e0-24e3c3091eb6" name="Default" comment="xxxx">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/intersection/相交链表.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/intersection/相交链表.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/DetectCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle/DetectCycle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/GetIntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/intersection/GetIntersectionNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle/环形链表 II.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle/环形链表 II.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +75,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/algorithm/leetcode/linklist/intersection" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -89,7 +87,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Settings.Markdown" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -100,11 +98,11 @@
       <recent name="pattern.adapter.qcq.XmlSystem" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/algorithm/leetcode/linklist/intersection" />
       <recent name="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle" />
       <recent name="$PROJECT_DIR$/src/algorithm/leetcode/linklist" />
       <recent name="C:\GitHubRepositories\Learn-Java\src" />
       <recent name="C:\GitHubRepositories\Learn-Java\src\temp" />
-      <recent name="C:\GitHubRepositories\Learn-Java\src\reflect" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="algorithm.backtrack" />
@@ -406,7 +404,7 @@
       <workItem from="1604372236669" duration="601000" />
       <workItem from="1604466168565" duration="295000" />
       <workItem from="1624788069472" duration="4480000" />
-      <workItem from="1625376981867" duration="969000" />
+      <workItem from="1625376981867" duration="2537000" />
     </task>
     <task id="LOCAL-00001" summary="5/14">
       <created>1557820735322</created>
@@ -429,7 +427,21 @@
       <option name="project" value="LOCAL" />
       <updated>1604547881304</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="xxxx">
+      <created>1625377979994</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1625377979994</updated>
+    </task>
+    <task id="LOCAL-00005" summary="xxxx">
+      <created>1625378055519</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1625378055519</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -449,17 +461,22 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5/14" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/14" />
+    <MESSAGE value="xxxx" />
+    <option name="LAST_COMMIT_MESSAGE" value="xxxx" />
   </component>
   <component name="WindowStateProjectService">
     <state x="419" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625368440916">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="419" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1625368440916" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1625377256281">
+    <state x="229" y="86" key="SettingsEditor" timestamp="1625380750825">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1625377256281" />
+    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1625380750825" />
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1625378056848">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1625378056848" />
     <state x="512" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624788081760">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -842,7 +859,7 @@
           <option name="timeStamp" value="765" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/linklist/GetIntersectionNode.java</url>
+          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/linklist/intersection/GetIntersectionNode.java</url>
           <line>62</line>
           <option name="timeStamp" value="774" />
         </line-breakpoint>
