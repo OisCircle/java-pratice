@@ -13,4 +13,17 @@ public class ListNode {
 		val = x;
 		next = null;
 	}
+
+	private static void print(ListNode head) {
+		ListNode cur = head;
+		StringBuilder sb = new StringBuilder();
+		while (cur != null) {
+			sb.append(cur.val + " -> ");
+			cur = cur.next;
+		}
+		if (sb.length() > 1) {
+			sb.delete(sb.length() - 4, sb.length());
+		}
+		System.out.println(sb.toString());
+	}
 }

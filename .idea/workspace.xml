@@ -23,16 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9db0a2c-277a-4379-84e0-24e3c3091eb6" name="Default" comment="xxxx">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/removeNthFromEnd/RemoveNthFromEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/removeNthFromEnd/删除链表的倒数第N个节点.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/IsPalindrome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/linklist/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/linklist/ListNode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle/DetectCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle/DetectCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle/HasCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle/HasCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/cycle/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/intersection/GetIntersectionNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/intersection/GetIntersectionNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/intersection/相交链表.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/intersection/相交链表.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/linklist/OddEvenList$ListNode.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/linklist/OddEvenList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/linklist/OddEvenList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/OddEvenList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/linklist/OddEvenList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,21 +116,7 @@
       <recent name="pattern.state" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.RemoveNthFromEnd">
-    <configuration name="ArrayOfGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.test4.ArrayOfGeneric" />
-      <module name="learn-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.test5.GenericArray" />
-      <module name="learn-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.IsPalindrome">
     <configuration name="GenericArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generic.test6.GenericArray2" />
       <module name="learn-java" />
@@ -147,6 +131,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.linklist.IsPalindrome" />
+      <module name="learn-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OddEvenList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.linklist.OddEvenList" />
+      <module name="learn-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RemoveNthFromEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.linklist.removeNthFromEnd.RemoveNthFromEnd" />
       <module name="learn-java" />
@@ -155,19 +153,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ArrayOfGeneric" />
-      <item itemvalue="Application.GenericArray" />
       <item itemvalue="Application.GenericArray2" />
       <item itemvalue="Application.GetIntersectionNode" />
       <item itemvalue="Application.RemoveNthFromEnd" />
+      <item itemvalue="Application.OddEvenList" />
+      <item itemvalue="Application.IsPalindrome" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IsPalindrome" />
+        <item itemvalue="Application.OddEvenList" />
         <item itemvalue="Application.RemoveNthFromEnd" />
         <item itemvalue="Application.GetIntersectionNode" />
         <item itemvalue="Application.GenericArray2" />
-        <item itemvalue="Application.GenericArray" />
-        <item itemvalue="Application.ArrayOfGeneric" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +407,9 @@
       <workItem from="1604372236669" duration="601000" />
       <workItem from="1604466168565" duration="295000" />
       <workItem from="1624788069472" duration="4480000" />
-      <workItem from="1625376981867" duration="9256000" />
+      <workItem from="1625376981867" duration="9515000" />
+      <workItem from="1625674524540" duration="292000" />
+      <workItem from="1625913334397" duration="3198000" />
     </task>
     <task id="LOCAL-00001" summary="5/14">
       <created>1557820735322</created>
@@ -481,7 +481,14 @@
       <option name="project" value="LOCAL" />
       <updated>1625382239915</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="xxxx">
+      <created>1625402887209</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1625402887209</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -513,46 +520,50 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1625382908609" />
-    <state width="1440" height="231" key="GridCell.Tab.0.bottom" timestamp="1625394859239">
+    <state width="413" height="466" key="DebuggerActiveHint" timestamp="1625926438802">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1625394859239" />
-    <state width="1440" height="231" key="GridCell.Tab.0.center" timestamp="1625394859236">
+    <state width="413" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1625926438802" />
+    <state width="1440" height="231" key="GridCell.Tab.0.bottom" timestamp="1625926800982">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1625394859236" />
-    <state width="1440" height="231" key="GridCell.Tab.0.left" timestamp="1625394859234">
+    <state width="1440" height="231" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1625926800982" />
+    <state width="1440" height="231" key="GridCell.Tab.0.center" timestamp="1625926800981">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1625394859234" />
-    <state width="1440" height="231" key="GridCell.Tab.0.right" timestamp="1625394859237">
+    <state width="1440" height="231" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1625926800981" />
+    <state width="1440" height="231" key="GridCell.Tab.0.left" timestamp="1625926800980">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1625394859237" />
-    <state width="1440" height="302" key="GridCell.Tab.1.bottom" timestamp="1625382244917">
+    <state width="1440" height="231" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1625926800980" />
+    <state width="1440" height="231" key="GridCell.Tab.0.right" timestamp="1625926800982">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1625382244917" />
-    <state width="1440" height="302" key="GridCell.Tab.1.center" timestamp="1625382244915">
+    <state width="1440" height="231" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1625926800982" />
+    <state width="1440" height="302" key="GridCell.Tab.1.bottom" timestamp="1625926684357">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="302" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1625382244915" />
-    <state width="1440" height="302" key="GridCell.Tab.1.left" timestamp="1625382244915">
+    <state width="1440" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1625926684357" />
+    <state width="1440" height="302" key="GridCell.Tab.1.center" timestamp="1625926684355">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="302" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1625382244915" />
-    <state width="1440" height="302" key="GridCell.Tab.1.right" timestamp="1625382244916">
+    <state width="1440" height="302" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1625926684355" />
+    <state width="1440" height="302" key="GridCell.Tab.1.left" timestamp="1625926684355">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="302" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1625382244916" />
+    <state width="1440" height="302" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1625926684355" />
+    <state width="1440" height="302" key="GridCell.Tab.1.right" timestamp="1625926684356">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1440" height="302" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1625926684356" />
     <state x="229" y="86" key="SettingsEditor" timestamp="1625380750825">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1625380750825" />
-    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1625382241376">
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1625402888720">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1625382241376" />
+    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1625402888720" />
     <state x="512" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624788081760">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
@@ -1063,67 +1074,12 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="watch">
-      <expression>
-        <expression-string>nums[mid]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nums[r]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>nums[l]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>num</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>mid</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>r</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>l</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>ou.val</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>ji.val</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>odd.val</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>stack.peek()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="rec.val" language="JAVA" />
+        <watch expression="cur.val" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="masterDetails">
     <states>
