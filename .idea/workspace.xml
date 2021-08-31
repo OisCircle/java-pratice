@@ -22,40 +22,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9db0a2c-277a-4379-84e0-24e3c3091eb6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/generic/Suppliers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test0/Tuple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test0/Tuple2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test0/Tuple3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test0/Tuple4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test0/Tuple5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test1/ArrayMaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test2/FactoryConstraint.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test3/CreatorGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test4/ArrayOfGeneric.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test4/ArrayOfGenericReference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test5/GenericArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/generic/test6/GenericArray2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/command/java8Command/Null.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/command/java8Command/NullRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/command/java8Command/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/command/java8Command/Robot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/command/java8Command/SnowRemovalRobot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/itertaror/test0/CoffeeSupplier.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/itertaror/test0/coffee/Americano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/itertaror/test0/coffee/Breve.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/itertaror/test0/coffee/Cappuccino.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/itertaror/test0/coffee/Coffee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/itertaror/test0/coffee/Latte.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/itertaror/test0/coffee/Mocha.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/META-INF/learn-java.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/META-INF/learn-java.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/pattern/strategy/AmericanFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/pattern/strategy/Date.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/pattern/strategy/EuropeanFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/pattern/strategy/IDateFormat.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/pattern/strategy/TestStrategy.class" beforeDir="false" />
-    </list>
+    <list default="true" id="f9db0a2c-277a-4379-84e0-24e3c3091eb6" name="Default" comment="5/14" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -171,6 +138,17 @@
     <configuration name="GenericArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="generic.test6.GenericArray2" />
       <module name="learn-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -428,7 +406,7 @@
       <workItem from="1603032332575" duration="258000" />
       <workItem from="1603538082892" duration="5250000" />
       <workItem from="1604372236669" duration="601000" />
-      <workItem from="1604466168565" duration="243000" />
+      <workItem from="1604466168565" duration="295000" />
     </task>
     <task id="LOCAL-00001" summary="5/14">
       <created>1557820735322</created>
@@ -444,7 +422,14 @@
       <option name="project" value="LOCAL" />
       <updated>1557821116864</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="5/14">
+      <created>1604547881304</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604547881304</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
