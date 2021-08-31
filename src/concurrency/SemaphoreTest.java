@@ -14,7 +14,7 @@ import java.util.concurrent.Semaphore;
 public class SemaphoreTest {
 	public static void main(String[] args){
 		Semaphore wc = new Semaphore(2,true);
-		for (int i = 0; i < 4; ++i) {
+		for (int i = 1; i <= 4; ++i) {
 			new Person(i,wc).start();
 		}
 
@@ -26,7 +26,7 @@ class Person extends Thread {
 	Person(int num,Semaphore wc) {
 		this.num = num;
 		this.wc = wc;
-	}
+	}   
 	private int num;
 	private Semaphore wc;
 	@Override
@@ -37,6 +37,7 @@ class Person extends Thread {
 			System.out.println("工人 " + num + " 进入厕所...");
 			Thread.sleep(2000L);
 			System.out.println("工人 " + num + " 离开厕所...");
+			Thread.sleep(2000L);
 			wc.release();
 		} catch (InterruptedException e) {
 			e.printStackTrace();
