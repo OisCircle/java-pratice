@@ -5,16 +5,6 @@ package algorithm.leetcode.linklist;
  * @since 2020/4/1
  */
 public class OddEvenList {
-    private static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-            next = null;
-        }
-    }
-
     private static void print(ListNode head) {
         ListNode cur = head;
         StringBuilder sb = new StringBuilder();
@@ -77,7 +67,7 @@ public class OddEvenList {
 
         print(b0);
 
-        print((oddEvenList(b0)));
+        print((oddEvenList2(b0)));
     }
 
     public static ListNode oddEvenList(ListNode head) {
@@ -106,5 +96,21 @@ public class OddEvenList {
         }
         ji.next = ouHead;
         return jiHead;
+    }
+
+    public static ListNode oddEvenList2(ListNode head) {
+        if(head==null) return head;
+        ListNode jiLast=head,ouHead=head.next,cur=head,next=null;
+        int count=1;
+        //遍历一遍cur，cur.next=cur.next.next，这样子就变成了奇偶两条链
+        //遍历过程中记录奇链的最后一个元素，用来与偶链的第一个连接
+        while(cur.next!=null){
+            jiLast=count++ %2 == 0 ? cur.next : jiLast;
+            next=cur.next;
+            cur.next=cur.next.next;
+            cur=next;
+        }
+        jiLast.next=ouHead;
+        return head;
     }
 }
