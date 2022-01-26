@@ -15,16 +15,16 @@ public class MergeTwoLists {
 		ListNode l11 = new ListNode(2);
 		ListNode l12 = new ListNode(4);
 
-		ListNode l2 = new ListNode(1);
-		ListNode l21 = new ListNode(3);
-		ListNode l22 = new ListNode(4);
+		ListNode l2 = new ListNode(3);
+		ListNode l21 = new ListNode(5);
 
 		l1.next = l11;
 		l11.next = l12;
 		l2.next = l21;
-		l21.next = l22;
 
 //		mergeTwoLists(l1, l2).print();
+
+		mergeTwoLists2(l1, l2).print();
 
 //		mergeTwoLists(l2, l1).print();
 
@@ -35,7 +35,7 @@ public class MergeTwoLists {
 //		mergeTwoLists(null, null).print();
 
 
-		mergeTwoListsRecursively(l1, l2).print();
+//		mergeTwoListsRecursively(l1, l2).print();
 	}
 
 	static ListNode mergeTwoListsRecursively(ListNode l1, ListNode l2) {
@@ -91,6 +91,35 @@ public class MergeTwoLists {
 				l2 = l2.next;
 			}
 			cur = cur.next;
+		}
+		return head;
+	}
+
+	static ListNode mergeTwoLists2(ListNode l1, ListNode l2) {
+		if (l1 == null) {
+			return l2;
+		}
+		if (l2 == null) {
+			return l1;
+		}
+		ListNode main = l1.val < l2.val ? l1 : l2;
+		ListNode sub = l1.val >= l2.val ? l1 : l2;
+		ListNode head = main, a = main.next, b = sub;
+		while (a != null && b != null) {
+			if (a.val < b.val) {
+				main.next = a;
+				a = a.next;
+			} else {
+				main.next = b;
+				b = b.next;
+			}
+			main = main.next;
+		}
+		if (a != null) {
+			main.next = a;
+		}
+		if (b != null) {
+			main.next = b;
 		}
 		return head;
 	}

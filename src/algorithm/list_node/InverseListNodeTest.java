@@ -1,5 +1,7 @@
 package algorithm.list_node;
 
+import java.util.Stack;
+
 /**
  * <p>
  * 输入一个链表，反转链表后，输出新链表的表头。
@@ -25,7 +27,9 @@ public class InverseListNodeTest {
 		head.print();
 
 //		reverseList(head).print();
-		reverseListLoop(head).print();
+//		reverseListLoop2(head).print();
+//		reverseListLoop(head).print();
+		stackReverseList(head).print();
 //		n5.print();
 	}
 
@@ -44,6 +48,20 @@ public class InverseListNodeTest {
 			current = next;
 		}
 		return last;
+	}
+
+	static ListNode reverseListLoop2(ListNode head) {
+		if (head == null || head.next == null) {
+			return null;
+		}
+		ListNode pre = null, next, cur = head;
+		while (cur != null) {
+			next = cur.next;
+			cur.next = pre;
+			pre = cur;
+			cur = next;
+		}
+		return pre;
 	}
 
 
@@ -69,6 +87,27 @@ public class InverseListNodeTest {
 		next.next = last;
 		//anti loop listnode
 		last.next = null;
+	}
+
+	static ListNode stackReverseList(ListNode cur) {
+		if (cur == null || cur.next == null) {
+			return cur;
+		}
+		Stack<ListNode> stack = new Stack<>();
+		ListNode head;
+		while (cur != null) {
+			stack.push(cur);
+			cur = cur.next;
+		}
+		cur = stack.pop();
+		head = cur;
+		while (!stack.isEmpty()) {
+			ListNode pop = stack.pop();
+			cur.next = pop;
+			cur = pop;
+		}
+		cur.next = null;
+		return head;
 	}
 }
 

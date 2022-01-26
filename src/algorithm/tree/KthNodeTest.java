@@ -1,5 +1,7 @@
 package algorithm.tree;
 
+import java.util.Stack;
+
 /**
  * <p>
  * 给定一棵二叉搜索树，请找出其中的第k小的结点。例如， （5，3，7，2，4，6，8）    中，按结点数值大小顺序第三小结点的值为4。
@@ -28,6 +30,11 @@ public class KthNodeTest {
 		KthNodeTest test = new KthNodeTest();
 		test.KthNode(n1, 3);
 		System.out.println(test.node.val);
+
+		System.out.println("----------");
+
+		System.out.println("res: " + kthNode(n1, 3));;
+		System.out.println("res: " + kthNode(n1, 7));;
 	}
 
 	/**
@@ -60,5 +67,30 @@ public class KthNodeTest {
 		if (cur < k) {
 			KthNode(pRoot.right, k);
 		}
+	}
+
+	/**
+	 * 思路：非递归解法
+	 *
+	 * 先写出递归模版（两个while），再改造
+	 */
+	static int kthNode(TreeNode cur, int k) {
+		Stack<TreeNode> stack = new Stack<>();
+		int count = 0;
+		while (cur != null || !stack.isEmpty()) {
+			while (cur != null) {
+				stack.push(cur);
+				cur = cur.left;
+			}
+			TreeNode node = stack.pop();
+			System.out.println(node.val);
+			if (++count == k) {
+				return node.val;
+			}
+			if (node.right != null) {
+				cur = node.right;
+			}
+		}
+		return -1;
 	}
 }

@@ -34,11 +34,17 @@ public class ThreeSumTest {
 		int[] nums5 = new int[]{-2, 0, 1, 1, 2};
 		int[] nums6 = new int[]{-2, 2};
 		System.out.println(threeSum(nums));
+		System.out.println(threeSum2(nums));
 		System.out.println(threeSum(nums2));
+		System.out.println(threeSum2(nums2));
 		System.out.println(threeSum(nums3));
+		System.out.println(threeSum2(nums3));
 		System.out.println(threeSum(nums4));
+		System.out.println(threeSum2(nums4));
 		System.out.println(threeSum(nums5));
+		System.out.println(threeSum2(nums5));
 		System.out.println(threeSum(nums6));
+		System.out.println(threeSum2(nums6));
 	}
 
 	/**
@@ -94,4 +100,55 @@ public class ThreeSumTest {
 		return res;
 	}
 
+	/**
+	 * 排除重复结果，两个地方要处理
+	 * <p>
+	 * 思路：
+	 *
+	 * 1 twoSum先写好，从一个范围区间里面穷举例两个下标之合等于target的集合
+	 *
+	 * 2 固定一个数字，从剩下的范围里面O(n)穷举twoSum
+	 *
+	 * 3 用来做下标的变量在移动的时候，都要排除重复值的下标，所以外层固定指针移动的时候要去重复，内层twoSum移动的时候也要去重复
+	 */
+	static List<List<Integer>> threeSum2(int[] nums) {
+		int len = nums.length;
+		Arrays.sort(nums);
+		if (len < 3) {
+			return Collections.emptyList();
+		}
+		List<List<Integer>> res = new ArrayList<>(len / 2);
+		for (int i = 0; i < len - 2; i++) {
+			twoSum(i, nums, -nums[i], res);
+			//排除重复结果
+			int same = nums[i];
+			while (i < len && nums[i] == same) {
+				i++;
+			}
+		}
+		return res;
+	}
+
+	public static void twoSum(int start, int[] nums, int target, List<List<Integer>> res) {
+		int l = start, r = nums.length - 1;
+		while (l < r) {
+			if (nums[l] + nums[r] == target) {
+				res.add(Arrays.asList(nums[start], nums[l], nums[r]));
+			}
+			int same;
+			if (nums[l] + nums[r] > target) {
+				same = nums[r];
+				//排除重复结果
+				while (r > l && nums[r] == same) {
+					r--;
+				}
+			} else {
+				same = nums[l];
+				//排除重复结果
+				while (l < r && nums[l] == same) {
+					l++;
+				}
+			}
+		}
+	}
 }

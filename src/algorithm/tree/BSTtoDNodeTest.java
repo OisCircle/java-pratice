@@ -3,6 +3,9 @@ package algorithm.tree;
 import java.util.ArrayList;
 import java.util.Currency;
 import java.util.List;
+import java.util.Stack;
+import java.util.function.Consumer;
+import java.util.function.Function;
 
 /**
  * <p>
@@ -14,6 +17,8 @@ import java.util.List;
  * @since 2019/4/19
  */
 public class BSTtoDNodeTest {
+	private static TreeNode last = null;
+	private static TreeNode first = null;
 	public static void main(String[] args) {
 		TreeNode n1 = new TreeNode(5);
 		TreeNode n2 = new TreeNode(3);
@@ -29,8 +34,10 @@ public class BSTtoDNodeTest {
 		n2.right = n5;
 		n3.left = n6;
 		n3.right = n7;
-		convert1(n1);
-		System.out.println(n1);
+//		convert1(n1);
+//		System.out.println(n1);
+
+		act(n1);
 	}
 
 	/**
@@ -98,5 +105,46 @@ public class BSTtoDNodeTest {
 			pre = convert2(cur.right, cur);
 		}
 		return pre;
+	}
+
+	static void act(TreeNode cur) {
+		Consumer<TreeNode> consume1 = mid -> {
+			if (last == null) {
+				first = mid;
+			}
+			if (last != null) {
+				last.right = mid;
+			}
+			last = mid;
+		};
+
+		Consumer<TreeNode> consume2 = mid -> {
+
+		};
+
+		mid(cur, consume1);
+
+		while (first != null) {
+			System.out.print(first.val);
+			first = first.right;
+		}
+	}
+
+	//使用中序遍历通用模型，再改造一下，每个打印的目标，链接下一个目标即可
+	static void mid(TreeNode cur, Consumer<TreeNode> consumer) {
+		Stack<TreeNode> stack = new Stack<>();
+		while (cur != null || !stack.isEmpty()) {
+			while (cur != null) {
+				stack.push(cur);
+				cur = cur.left;
+			}
+			if (!stack.isEmpty()) {
+				TreeNode mid = stack.pop();
+				System.out.println(mid.val);
+				//自定义逻辑，其它都是中序遍历通用逻辑
+				consumer.accept(mid);
+				cur = mid.right;
+			}
+		}
 	}
 }

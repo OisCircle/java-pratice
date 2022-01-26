@@ -33,12 +33,14 @@ public class FindPathTest {
 		TreeNode t3 = new TreeNode(12);
 		TreeNode t4 = new TreeNode(4);
 		TreeNode t5 = new TreeNode(7);
+		TreeNode t6 = new TreeNode(10);
 		t1.left = t2;
 		t1.right = t3;
 		t2.left = t4;
 		t2.right = t5;
+		t4.left = t6;
 
-		findPath(t1, 15);
+		findPath(t1, 22);
 	}
 
 	static void findPath(TreeNode head, int value) {
@@ -46,7 +48,7 @@ public class FindPathTest {
 			System.out.println("head is null");
 			return;
 		}
-		findPathCore(head, value, new ArrayList<>(), 0);
+		findPathCore2(head, value, new ArrayList<>(), 0);
 	}
 
 	static void findPathCore(TreeNode node, int value, List<TreeNode> path, int current) {
@@ -74,9 +76,29 @@ public class FindPathTest {
 		path.remove(path.size() - 1);
 	}
 
+	static void findPathCore2(TreeNode node, int value, List<TreeNode> path, int current) {
+		//校验null避免下面递归的时候判断null
+		if (node == null) {
+			return;
+		}
+		current += node.val;
+		path.add(node);
+		if (current == value) {
+			print(path);
+			path.remove(path.size() - 1);
+			return;
+		}
+		//剪枝逻辑，大于的，就不递归下去了，没必要
+		if (current <= value) {
+			findPathCore2(node.left, value, path, current);
+			findPathCore2(node.right, value, path, current);
+		}
+		path.remove(path.size() - 1);
+	}
+
 	static void print(List<TreeNode> path) {
 		System.out.println("find path:");
-		path.stream().forEach(node -> System.out.print(node.val + " -> "));
+		path.forEach(node -> System.out.print(node.val + " -> "));
 		System.out.println();
 	}
 }

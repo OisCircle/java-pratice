@@ -5,6 +5,8 @@ import java.util.Stack;
 /**
  * <p>
  * 剑指31题
+ *
+ * 给一个压入序列，和弹出序列，判断是不是弹出序列
  * </p>
  *
  * @author O
@@ -22,6 +24,10 @@ public class PopSequenceTest {
 		System.out.println(isPopSequence(sequenceIn, null));
 		System.out.println(isPopSequence(null, null));
 		System.out.println(isPopSequence(null, sequenceOut2));
+
+		System.out.println("-------");
+		System.out.println(isPopSequence1(sequenceIn, sequenceOut));
+		System.out.println(isPopSequence1(sequenceIn, sequenceOut2));
 	}
 
 	static boolean isPopSequence(int[] sequenceIn, int[] sequenceOut) {
@@ -44,5 +50,20 @@ public class PopSequenceTest {
 			}
 		}
 		return false;
+	}
+
+	static boolean isPopSequence1(int[] sequenceIn, int[] sequenceOut) {
+		Stack<Integer> stack = new Stack<>();
+		int inIndex = 0, outIndex = 0;
+		while (inIndex < sequenceIn.length) {
+			stack.push(sequenceIn[inIndex++]);
+			//每压一个，都循环判断一批
+			while (!stack.isEmpty() && stack.peek() == sequenceOut[outIndex]) {
+				stack.pop();
+				outIndex++;
+			}
+		}
+		//为空说明全部序列匹配成功，不为空说明部分序列匹配失败
+		return stack.isEmpty();
 	}
 }

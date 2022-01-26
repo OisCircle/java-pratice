@@ -23,11 +23,88 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9db0a2c-277a-4379-84e0-24e3c3091eb6" name="Default" comment="xxxx">
-      <change afterPath="$PROJECT_DIR$/src/concurrency/ZeroToHundredTest2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/CheckInclusionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/LREqualIndexTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/NumSubArrayProductLessThanK.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/SubArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/SubMatrixSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/math/AppearOnceNumberTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/math/BigNumberAddTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/math/BinaryNumberOf1Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithm/math/DivideTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/Person.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/SemaphoreTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/SemaphoreTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/SemaphoreTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/SemaphoreTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/MinSubArrayLen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/MinSubArrayLen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/search/ThreeSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/search/ThreeSumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/CloneRandomListNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/CloneRandomListNodeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/FindFirstCommonNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/FindFirstCommonNodeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/FindKthToTailTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/FindKthToTailTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/InverseListNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/InverseListNodeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/MergeTwoLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/MergeTwoLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/PalindromeListNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/PalindromeListNodeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/CircleCountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/CircleCountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/Fib.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/Fib.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/NumberOf1Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/NumberOf1Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/Power2Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/Power2Test.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/queue/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/queue/MyStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/queue/TwoQueueToStackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/queue/TwoQueueToStackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/HeapSortTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/HeapSortTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/InsertSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/InsertSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/MergeSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/MergeSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/QuickSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/QuickSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/stack/MinStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/stack/MinStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/stack/PopSequenceTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/stack/PopSequenceTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/stack/TwoStackToQueueTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/stack/TwoStackToQueueTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BSTtoDNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BSTtoDNodeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BTreeTraversalTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BTreeTraversalTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BfsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BfsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/DfsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/DfsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/FindPathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/FindPathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/HasSubTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/HasSubTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/IsBalancedTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/IsBalancedTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/KthNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/KthNodeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/MaxDepthTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/MaxDepthTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/MirrorBTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/MirrorBTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/MirrorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/MirrorTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/PrintFromTopToBottomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/PrintFromTopToBottomTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/SymmetricTree.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/SymmetricTree.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/TreeDepthTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/TreeDepthTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/MinSubArrayLen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/MinSubArrayLen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/search/ThreeSumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/search/ThreeSumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/list_node/CloneRandomListNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/list_node/CloneRandomListNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/list_node/FindFirstCommonNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/list_node/FindFirstCommonNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/list_node/FindKthToTailTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/list_node/FindKthToTailTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/list_node/InverseListNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/list_node/InverseListNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/list_node/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/list_node/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/list_node/PalindromeListNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/list_node/PalindromeListNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/math/CircleCountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/math/CircleCountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/math/Fib.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/math/Fib.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/math/NumberOf1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/math/NumberOf1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/math/Power2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/math/Power2Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/queue/TwoQueueToStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/queue/TwoQueueToStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/HeapSortTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/HeapSortTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/InsertSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/InsertSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/MergeSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/QuickSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/stack/MinStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/stack/MinStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/stack/PopSequenceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/stack/PopSequenceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/stack/TwoStackToQueueTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/stack/TwoStackToQueueTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/BTreeTraversalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/BTreeTraversalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/BfsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/BfsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/DfsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/DfsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/FindPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/FindPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/HasSubTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/HasSubTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/IsBalancedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/IsBalancedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/MaxDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/MaxDepthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/MirrorBTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/MirrorBTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/MirrorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/MirrorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/PrintFromTopToBottomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/PrintFromTopToBottomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/SymmetricTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/SymmetricalBTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/SymmetricalBTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/TreeDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/TreeDepthTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,56 +191,56 @@
       <recent name="C:\GitHubRepositories\Learn-Java\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ZeroToHundredTest2">
-    <configuration name="IsPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.linklist.IsPalindrome" />
+  <component name="RunManager" selected="Application.CheckInclusionTest">
+    <configuration name="CheckInclusionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.array.CheckInclusionTest" />
       <module name="learn-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OddEvenList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.linklist.OddEvenList" />
+    <configuration name="LREqualIndexTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.array.LREqualIndexTest" />
       <module name="learn-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SemaphoreTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.SemaphoreTest" />
+    <configuration name="NumSubArrayProductLessThanK" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.array.NumSubArrayProductLessThanK" />
       <module name="learn-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroToHundredTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.ZeroToHundredTest" />
+    <configuration name="SubArraySum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.array.SubArraySum" />
       <module name="learn-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ZeroToHundredTest2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="concurrency.ZeroToHundredTest2" />
+    <configuration name="SubMatrixSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.array.SubMatrixSum" />
       <module name="learn-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OddEvenList" />
-      <item itemvalue="Application.IsPalindrome" />
-      <item itemvalue="Application.SemaphoreTest" />
-      <item itemvalue="Application.ZeroToHundredTest" />
-      <item itemvalue="Application.ZeroToHundredTest2" />
+      <item itemvalue="Application.NumSubArrayProductLessThanK" />
+      <item itemvalue="Application.SubArraySum" />
+      <item itemvalue="Application.LREqualIndexTest" />
+      <item itemvalue="Application.SubMatrixSum" />
+      <item itemvalue="Application.CheckInclusionTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ZeroToHundredTest2" />
-        <item itemvalue="Application.ZeroToHundredTest" />
-        <item itemvalue="Application.SemaphoreTest" />
-        <item itemvalue="Application.IsPalindrome" />
-        <item itemvalue="Application.OddEvenList" />
+        <item itemvalue="Application.CheckInclusionTest" />
+        <item itemvalue="Application.SubMatrixSum" />
+        <item itemvalue="Application.LREqualIndexTest" />
+        <item itemvalue="Application.SubArraySum" />
+        <item itemvalue="Application.NumSubArrayProductLessThanK" />
       </list>
     </recent_temporary>
   </component>
@@ -412,6 +489,16 @@
       <workItem from="1626695652926" duration="116000" />
       <workItem from="1627806840786" duration="2207000" />
       <workItem from="1628258236086" duration="286000" />
+      <workItem from="1630414873913" duration="420000" />
+      <workItem from="1631443963531" duration="20562000" />
+      <workItem from="1632064055422" duration="25390000" />
+      <workItem from="1634303490143" duration="13859000" />
+      <workItem from="1634884667612" duration="531000" />
+      <workItem from="1634886799059" duration="34576000" />
+      <workItem from="1636100356244" duration="7587000" />
+      <workItem from="1637475383009" duration="439000" />
+      <workItem from="1642343207663" duration="269000" />
+      <workItem from="1643036289398" duration="397000" />
     </task>
     <task id="LOCAL-00001" summary="5/14">
       <created>1557820735322</created>
@@ -511,11 +598,18 @@
       <option name="project" value="LOCAL" />
       <updated>1627806882124</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="xxxx">
+      <created>1630414884386</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1630414884386</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -535,86 +629,54 @@
     <option name="LAST_COMMIT_MESSAGE" value="xxxx" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="419" y="256" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1625368440916">
+    <state width="1440" height="261" key="GridCell.Tab.0.bottom" timestamp="1637475272399">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1440" height="261" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1636297309105" />
+    <state width="1440" height="261" key="GridCell.Tab.0.bottom/0.25.1440.790@0.25.1440.790" timestamp="1637475272399" />
+    <state width="1440" height="261" key="GridCell.Tab.0.center" timestamp="1637475272398">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1440" height="261" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1636297309103" />
+    <state width="1440" height="261" key="GridCell.Tab.0.center/0.25.1440.790@0.25.1440.790" timestamp="1637475272398" />
+    <state width="1440" height="261" key="GridCell.Tab.0.left" timestamp="1637475272397">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1440" height="261" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1636297309102" />
+    <state width="1440" height="261" key="GridCell.Tab.0.left/0.25.1440.790@0.25.1440.790" timestamp="1637475272397" />
+    <state width="1440" height="261" key="GridCell.Tab.0.right" timestamp="1637475272398">
+      <screen x="0" y="25" width="1440" height="790" />
+    </state>
+    <state width="1440" height="261" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1636297309104" />
+    <state width="1440" height="261" key="GridCell.Tab.0.right/0.25.1440.790@0.25.1440.790" timestamp="1637475272398" />
+    <state width="1440" height="302" key="GridCell.Tab.1.bottom" timestamp="1635825762061">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="419" y="256" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1440.900@0.0.1440.900" timestamp="1625368440916" />
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser" timestamp="1627807747341">
+    <state width="1440" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1635825762061" />
+    <state width="1440" height="302" key="GridCell.Tab.1.center" timestamp="1635825762059">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="533" y="160" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1627807747341" />
-    <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1625382908609">
+    <state width="1440" height="302" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1635825762059" />
+    <state width="1440" height="302" key="GridCell.Tab.1.left" timestamp="1635825762058">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="458" y="201" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1440.900@0.0.1440.900" timestamp="1625382908609" />
-    <state width="413" height="466" key="DebuggerActiveHint" timestamp="1625926438802">
+    <state width="1440" height="302" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1635825762058" />
+    <state width="1440" height="302" key="GridCell.Tab.1.right" timestamp="1635825762060">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="413" height="466" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1625926438802" />
-    <state width="1440" height="231" key="GridCell.Tab.0.bottom" timestamp="1628258120219">
+    <state width="1440" height="302" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1635825762060" />
+    <state x="458" y="189" key="extract.method.dialog" timestamp="1635088245496">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1628258120219" />
-    <state width="1440" height="231" key="GridCell.Tab.0.bottom/0.25.1440.791@0.25.1440.791" timestamp="1628258120131" />
-    <state width="1440" height="302" key="GridCell.Tab.0.bottom/0.25.1440.797@0.25.1440.797" timestamp="1626009396218" />
-    <state width="1440" height="231" key="GridCell.Tab.0.center" timestamp="1628258120217">
+    <state x="458" y="189" key="extract.method.dialog/0.0.1440.900@0.0.1440.900" timestamp="1635088245496" />
+    <state x="421" y="205" width="922" height="490" key="find.popup" timestamp="1642343251478">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1628258120217" />
-    <state width="1440" height="231" key="GridCell.Tab.0.center/0.25.1440.791@0.25.1440.791" timestamp="1628258120129" />
-    <state width="1440" height="302" key="GridCell.Tab.0.center/0.25.1440.797@0.25.1440.797" timestamp="1626009396216" />
-    <state width="1440" height="231" key="GridCell.Tab.0.left" timestamp="1628258120217">
+    <state x="421" y="205" width="922" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1642343251478" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1643036360579">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1628258120217" />
-    <state width="1440" height="231" key="GridCell.Tab.0.left/0.25.1440.791@0.25.1440.791" timestamp="1628258120118" />
-    <state width="1440" height="302" key="GridCell.Tab.0.left/0.25.1440.797@0.25.1440.797" timestamp="1626009396215" />
-    <state width="1440" height="231" key="GridCell.Tab.0.right" timestamp="1628258120218">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1628258120218" />
-    <state width="1440" height="231" key="GridCell.Tab.0.right/0.25.1440.791@0.25.1440.791" timestamp="1628258120130" />
-    <state width="1440" height="302" key="GridCell.Tab.0.right/0.25.1440.797@0.25.1440.797" timestamp="1626009396217" />
-    <state width="1440" height="302" key="GridCell.Tab.1.bottom" timestamp="1626009396223">
-      <screen x="0" y="25" width="1440" height="797" />
-    </state>
-    <state width="1440" height="302" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1625926684357" />
-    <state width="1440" height="302" key="GridCell.Tab.1.bottom/0.25.1440.797@0.25.1440.797" timestamp="1626009396223" />
-    <state width="1440" height="302" key="GridCell.Tab.1.center" timestamp="1626009396221">
-      <screen x="0" y="25" width="1440" height="797" />
-    </state>
-    <state width="1440" height="302" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1625926684355" />
-    <state width="1440" height="302" key="GridCell.Tab.1.center/0.25.1440.797@0.25.1440.797" timestamp="1626009396221" />
-    <state width="1440" height="302" key="GridCell.Tab.1.left" timestamp="1626009396220">
-      <screen x="0" y="25" width="1440" height="797" />
-    </state>
-    <state width="1440" height="302" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1625926684355" />
-    <state width="1440" height="302" key="GridCell.Tab.1.left/0.25.1440.797@0.25.1440.797" timestamp="1626009396220" />
-    <state width="1440" height="302" key="GridCell.Tab.1.right" timestamp="1626009396222">
-      <screen x="0" y="25" width="1440" height="797" />
-    </state>
-    <state width="1440" height="302" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1625926684356" />
-    <state width="1440" height="302" key="GridCell.Tab.1.right/0.25.1440.797@0.25.1440.797" timestamp="1626009396222" />
-    <state x="229" y="86" key="SettingsEditor" timestamp="1625380750825">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="229" y="86" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1625380750825" />
-    <state x="320" y="174" key="Vcs.Push.Dialog.v2" timestamp="1627806884400">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="174" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1627806884400" />
-    <state x="512" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1624788081760">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="512" y="368" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1624788081760" />
-    <state x="421" y="205" width="597" height="490" key="find.popup" timestamp="1626445781410">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="421" y="205" width="597" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1626445781410" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1625385976217">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1625385976217" />
+    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1643036360579" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -786,57 +848,57 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>83</line>
+          <line>90</line>
           <option name="timeStamp" value="672" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>84</line>
+          <line>91</line>
           <option name="timeStamp" value="673" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>86</line>
+          <line>93</line>
           <option name="timeStamp" value="674" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>88</line>
+          <line>95</line>
           <option name="timeStamp" value="675" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>90</line>
+          <line>97</line>
           <option name="timeStamp" value="676" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>91</line>
+          <line>98</line>
           <option name="timeStamp" value="677" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>92</line>
+          <line>99</line>
           <option name="timeStamp" value="678" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>95</line>
+          <line>102</line>
           <option name="timeStamp" value="679" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>96</line>
+          <line>103</line>
           <option name="timeStamp" value="680" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>97</line>
+          <line>104</line>
           <option name="timeStamp" value="681" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>99</line>
+          <line>106</line>
           <option name="timeStamp" value="682" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -893,41 +955,6 @@
           <url>file://$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java</url>
           <line>74</line>
           <option name="timeStamp" value="696" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="700" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="701" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="702" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="703" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>60</line>
-          <option name="timeStamp" value="713" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="715" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="716" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/leetcode/hash/FindDuplicateSubtrees.java</url>
@@ -1027,6 +1054,41 @@
           <line>21</line>
           <option name="timeStamp" value="799" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/stack/MinStackTest.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="800" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/list_node/FindFirstCommonNodeTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="801" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/math/DivideTest.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="806" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/math/DivideTest.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="807" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/array/MinSubArrayLen.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="810" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/array/NumSubArrayProductLessThanK.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="811" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/array/SubArraySum.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="812" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url />
           <line>756</line>
@@ -1034,14 +1096,6 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="17" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>44</line>
-          <properties class="algorithm.tree.KthNodeTest" method="KthNode">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="699" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithm/leetcode/queue/OpenLock.java</url>
@@ -1101,7 +1155,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithm/leetcode/array/MinSubArrayLen.java</url>
-          <line>20</line>
+          <line>48</line>
           <properties class="algorithm.leetcode.array.MinSubArrayLen" method="minSubArrayLen">
             <option name="EMULATED" value="true" />
           </properties>
@@ -1119,8 +1173,7 @@
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
-        <watch expression="rec.val" language="JAVA" />
-        <watch expression="cur.val" language="JAVA" />
+        <watch expression="bitSum[n]" language="JAVA" />
       </configuration>
     </watches-manager>
   </component>

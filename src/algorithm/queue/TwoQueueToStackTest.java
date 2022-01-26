@@ -30,8 +30,6 @@ public class TwoQueueToStackTest {
 		stack.pop();
 		stack.pop();
 		stack.pop();
-		stack.pop();
-		stack.pop();
 
 	}
 

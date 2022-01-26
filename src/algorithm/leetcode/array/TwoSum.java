@@ -3,6 +3,12 @@ package algorithm.leetcode.array;
 import java.util.Arrays;
 
 /**
+ * 找出排序数组中合为target的两个下标
+ *
+ * 无脑O（n^2）解法1：固定一个数字，遍历剩余所有其它下标数字
+ *
+ * O（n）解法2：双指针，一头一尾，头尾数字sum大于target则尾指针-1，否则头指针+1
+ *
  * @author O
  * @since 2020/3/28
  */

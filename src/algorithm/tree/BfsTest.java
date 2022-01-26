@@ -2,6 +2,8 @@ package algorithm.tree;
 
 import java.util.*;
 
+import apple.laf.JRSUIUtils;
+
 /**
  * <p>
  * 广度优先遍历
@@ -38,7 +40,7 @@ public class BfsTest {
 //		System.out.println("\n-------------------");
 //		bfs(null);
 
-		levelOrder(root).stream().forEach(System.out::println);
+		levelOrder2(root).stream().forEach(System.out::println);
 	}
 
 	static void bfs(TreeNode root) {
@@ -63,6 +65,9 @@ public class BfsTest {
 	}
 
 
+	/**
+	 * 层序遍历，输出每行
+	 */
 	static List<List<Integer>> levelOrder(TreeNode root) {
 		if (root == null) {
 			return new ArrayList<>();
@@ -90,9 +95,44 @@ public class BfsTest {
 				list = new ArrayList<>();
 				last = nextLast;
 			}
-
-
 		}
 		return result;
+	}
+
+
+	/**
+	 * 层序遍历
+	 *
+	 * lineEnd记录当前层的最后一个元素
+	 *
+	 * nextLast记录下一层的最后一个元素
+	 */
+	static List<List<Integer>> levelOrder2(TreeNode root) {
+		List<List<Integer>> res = new ArrayList<>();
+		List<Integer> list = new ArrayList<>();
+		TreeNode node;
+		TreeNode nextLast = root;
+		TreeNode lineEnd = root;
+		//入队，输出，同时判断左右子树是否存在，存在则入队
+		Queue<TreeNode> queue = new LinkedList<>();
+		queue.add(root);
+		while (!queue.isEmpty()) {
+			node = queue.poll();
+			if (node.left != null) {
+				queue.offer(node.left);
+				nextLast = node.left;
+			}
+			if (node.right != null) {
+				queue.offer(node.right);
+				nextLast = node.right;
+			}
+			list.add(node.val);
+			if (node == lineEnd) {
+				res.add(list);
+				list = new ArrayList<>();
+				lineEnd = nextLast;
+			}
+		}
+		return res;
 	}
 }

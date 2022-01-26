@@ -32,6 +32,8 @@ public class DfsTest {
 
 		dfs(root);
 		System.out.println("\n-------------------");
+		dfsRec(root);
+		System.out.println("\n-------------------");
 		dfs(leaf2);
 		System.out.println("\n-------------------");
 		dfs(leaf3);
@@ -39,8 +41,6 @@ public class DfsTest {
 		dfs(leaf4);
 		System.out.println("\n-------------------");
 		dfs(null);
-
-
 	}
 
 	static void dfs(TreeNode root) {
@@ -62,5 +62,14 @@ public class DfsTest {
 				stack.push(node.left);
 			}
 		}
+	}
+
+	static void dfsRec(TreeNode cur) {
+		if (cur == null) {
+			return;
+		}
+		System.out.println(cur.val);
+		dfsRec(cur.left);
+		dfsRec(cur.right);
 	}
 }

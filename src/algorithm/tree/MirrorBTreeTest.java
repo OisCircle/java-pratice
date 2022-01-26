@@ -25,8 +25,7 @@ public class MirrorBTreeTest {
 		t3.left = t6;
 		t3.right = t7;
 
-
-		mirrorlize(t1);
+		mirrorlize2(t1);
 	}
 
 	static void mirrorlize(BTree tree) {
@@ -48,5 +47,26 @@ public class MirrorBTreeTest {
 		}
 	}
 
+	static void mirrorlize2(BTree cur) {
+		if (cur == null) {
+			return;
+		}
+		swap(cur);
+		mirrorlize2(cur.left);
+		mirrorlize2(cur.right);
+	}
 
+	private static void swap(BTree cur) {
+		if (cur == null) {
+			return;
+		}
+		if (cur.left == null && cur.right == null) {
+			return;
+		}
+		System.out.println(String.format("before: node %s left %s right %s", cur.val, cur.left == null ? "null" : cur.left.val, cur.right == null ? "null" : cur.right.val));
+		BTree t = cur.left;
+		cur.left = cur.right;
+		cur.right = t;
+		System.out.println(String.format("after: node %s left %s right %s", cur.val, cur.left == null ? "null" : cur.left.val, cur.right == null ? "null" : cur.right.val));
+	}
 }

@@ -29,13 +29,15 @@ public class MaxDepthTest {
 		leaf5.right = leaf7;
 
 		System.out.println(maxDepth(root));
+		System.out.println(maxDepth2(root));
 
 		System.out.println(maxDepth(leaf1));
+		System.out.println(maxDepth2(leaf1));
 
 		System.out.println(maxDepth(leaf5));
+		System.out.println(maxDepth2(leaf5));
 
 	}
-
 
 	static int maxDepth(TreeNode root) {
 		if (root == null) {
@@ -47,6 +49,16 @@ public class MaxDepthTest {
 		int right = maxDepth(root.right);
 		//哪边深一点，返回哪边的深度
 		return (left < right ? right + 1 : left + 1);
+	}
+
+	static int maxDepth2(TreeNode cur) {
+		if (cur == null) {
+			return 0;
+		}
+		int leftDepth = maxDepth2(cur.left);
+		int rightDepth = maxDepth2(cur.right);
+		//左右取最大+当前节点所占深度1
+		return Math.max(leftDepth, rightDepth) + 1;
 	}
 }
 

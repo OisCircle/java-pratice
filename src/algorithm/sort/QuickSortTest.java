@@ -18,16 +18,15 @@ public class QuickSortTest {
 		int[] digits2 = new int[]{9, 1, 7, 3, 4, 5, 8, 2, 3};
 		int[] digits3 = new int[]{6, 1, 7, 3, 4, 5, 8, 2, 9};
 		int[] digits4 = new int[]{};
-		quickSort(digits, 0, digits.length - 1);
-		quickSort(digits2, 0, digits2.length - 1);
-		quickSort(digits3, 0, digits3.length - 1);
-		quickSort(digits4, 0, digits3.length - 1);
+		quickSort1(digits, 0, digits.length - 1);
+		quickSort1(digits2, 0, digits2.length - 1);
+		quickSort1(digits3, 0, digits3.length - 1);
+		quickSort1(digits4, 0, digits3.length - 1);
 
 //		quickSortLoop(digits);
 //		quickSortLoop(digits2);
 //		quickSortLoop(digits3);
 //		quickSortLoop(digits4);
-
 
 		Arrays.stream(digits).forEach(System.out::print);
 		System.out.println();
@@ -115,6 +114,7 @@ public class QuickSortTest {
 	}
 
 	private static class Record {
+
 		int left;
 		int right;
 
@@ -122,5 +122,31 @@ public class QuickSortTest {
 			this.left = left;
 			this.right = right;
 		}
+	}
+
+	static void quickSort1(int[] arr, int left, int right) {
+		if (arr == null || arr.length <= 1) {
+			return;
+		}
+		if (left < right) {
+			int mid = partition1(arr, left, right);
+			quickSort1(arr, left, mid - 1);
+			quickSort1(arr, mid + 1, right);
+		}
+	}
+
+	static int partition1(int[] arr, int left, int right) {
+		int pivot = right;
+		while (left < right) {
+			while (left < right && arr[left] <= arr[pivot]) {
+				left++;
+			}
+			while (left < right && arr[right] >= arr[pivot]) {
+				right--;
+			}
+			swap(arr, left, right);
+		}
+		swap(arr, left, pivot);
+		return left;
 	}
 }

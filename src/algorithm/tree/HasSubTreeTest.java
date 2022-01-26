@@ -49,11 +49,11 @@ public class HasSubTreeTest {
 		BTree t19 = new BTree(8);
 		BTree t20 = new BTree(8);
 
-		System.out.println(hasSubTree(t1, t8));
+		System.out.println(hasSubTree2(t1, t8));
 
-		System.out.println(hasSubTree(null, null));
-		System.out.println(hasSubTree(t1, null));
-		System.out.println(hasSubTree(null, t8));
+		System.out.println(hasSubTree2(null, null));
+		System.out.println(hasSubTree2(t1, null));
+		System.out.println(hasSubTree2(null, t8));
 	}
 
 	static boolean hasSubTree(BTree main, BTree sub) {
@@ -78,11 +78,11 @@ public class HasSubTreeTest {
 	}
 
 	static boolean compareRecursively(BTree main, BTree sub) {
-		//这个判断要放在上面
+		//这个判断要放在上面，sub为null说明sub走到了最后
 		if (sub == null) {
 			return true;
 		}
-		//这个判断要放在下面
+		//这个判断要放在下面，main为null说明main不够sub长
 		if (main == null) {
 			return false;
 		}
@@ -90,6 +90,37 @@ public class HasSubTreeTest {
 			return false;
 		}
 		return compareRecursively(main.left, sub.left) && compareRecursively(main.right, sub.right);
+	}
+
+
+	/**
+	 * 深度优先搜索模型先写出来，然后遇到相同的就递归比较
+	 */
+	static boolean hasSubTree2(BTree main, BTree sub) {
+		boolean res = false;
+		if (main == null || sub == null) {
+			return false;
+		}
+		if (main.val == sub.val) {
+			res = compareRecursively2(main, sub);
+		}
+		if (!res) {
+			return hasSubTree2(main.left, sub) || hasSubTree2(main.right, sub);
+		}
+		return true;
+	}
+
+	static boolean compareRecursively2(BTree main, BTree sub) {
+		if (sub == null) {
+			return true;
+		}
+		if (main == null) {
+			return false;
+		}
+		if (main.val != sub.val) {
+			return false;
+		}
+		return compareRecursively2(main.left, sub.left) && compareRecursively2(main.right, sub.right);
 	}
 }
 

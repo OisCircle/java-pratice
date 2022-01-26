@@ -25,7 +25,7 @@ public class SymmetricalBTreeTest {
 		if(root1==null||root2==null){
 			return false;
 		}
-		if(root1.val !=root2.val){
+		if(root1.val != root2.val){
 			return false;
 		}
 		return isSymmetrical(root1.left, root2.right)

@@ -82,8 +82,6 @@ public class BTreeTraversalTest {
 				stack.push(node.left);
 			}
 		}
-
-
 	}
 
 	//中序遍历
@@ -113,7 +111,7 @@ public class BTreeTraversalTest {
 		}
 		Stack<TreeNode> stack = new Stack<>();
 		TreeNode node = root;
-		//向左下角一直走，边走边压栈，然后输出，再判断右边有没有，有则进入右边，再继续往左下角走，重复
+		//向左下角一直走，边走边压栈，然后输出栈，再判断右边有没有，有则进入右边，再继续往左下角走，重复
 		while (node != null || !stack.isEmpty()) {
 			while (node != null) {
 				stack.push(node);

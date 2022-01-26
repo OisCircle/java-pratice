@@ -21,6 +21,11 @@ public class Fib {
 		print(5);
 		print(6);
 
+		System.out.println(fib(0));
+		System.out.println(fib(3));
+		System.out.println(fib(4));
+		System.out.println(fib(5));
+		System.out.println(fib(6));
 	}
 
 	static void print(int n) {
@@ -41,5 +46,18 @@ public class Fib {
 			n--;
 		}
 		System.out.println(res);
+	}
+
+	static int fib(int n) {
+		if (n <= 1) {
+			return n;
+		}
+		int a = 0, b = 1, res = 0;
+		while (n-- > 1) {
+			res = a + b;
+			a = b;
+			b = res;
+		}
+		return res;
 	}
 }

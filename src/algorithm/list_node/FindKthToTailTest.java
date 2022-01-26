@@ -29,6 +29,9 @@ public class FindKthToTailTest {
 		System.out.println(findKthToTail(n1, 6).val);
 	}
 
+	/**
+	* 增加一个pre节点，是为了统一操作
+	*/
 	static ListNode findKthToTail(ListNode head, int k) {
 		if (k < 1) {
 			System.out.println("倒数第" + k + "个不存在!");
