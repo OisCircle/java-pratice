@@ -26,127 +26,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f9db0a2c-277a-4379-84e0-24e3c3091eb6" name="Default" comment="xx">
-      <change afterPath="$PROJECT_DIR$/src/algorithm/bit_operation/HasAlternatingBits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/H2O.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/ZeroEvenOdd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/bidder/BidderMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/bidder/Host.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/bidder/Joiner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/concurrency/bidder/SelectResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/FindNumberInTwoDimensionArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/FindNumberInTwoDimensionArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/GetNumberOfKTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/GetNumberOfKTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/MaxProfitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/MaxProfitTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/MoreThanHalfNumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/MoreThanHalfNumTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/PrintMatrixTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/PrintMatrixTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/RobotRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/RobotRange.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/palindrome/PalindromeAttach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/palindrome/PalindromeAttach.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/backtrack/FindDuplicateSubtrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/backtrack/FindDuplicateSubtrees.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/backtrack/HasPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/backtrack/HasPath.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/dymanic_programming/CutRopeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/dymanic_programming/CutRopeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/dymanic_programming/MaxProfitIII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/dymanic_programming/MaxProfitIII.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/dymanic_programming/UglyNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/dymanic_programming/UglyNumberTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/MultiplyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/MultiplyTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/AddBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/AddBinary.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/ArrayPairSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/ArrayPairSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/DominantIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/DominantIndex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/FindDiagonalOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/FindDiagonalOrder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/FindMaxConsecutiveOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/FindMaxConsecutiveOnes.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/MinSubArrayLen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/MinSubArrayLen.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/PivotIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/PivotIndex.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/RemoveElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/TwoSum.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/FindMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/FindMin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/FindPeakElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/FindPeakElement.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/MySqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/MySqrt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/Search.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/MergeTwoLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/MergeTwoLists.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/PalindromeListNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/PalindromeListNodeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/CircleCountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/CircleCountTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/PowerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/PowerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/queue/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/queue/MyStack.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/queue/TwoQueueToStackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/queue/TwoQueueToStackTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/HeapSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/HeapSortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/MergeSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/MergeSortTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/stack/TwoStackToQueueTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/stack/TwoStackToQueueTest2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BSTtoDNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BSTtoDNodeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BTreeFindPathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BTreeFindPathTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BfsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BfsTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/HasSubTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/HasSubTreeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/KthNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/KthNodeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/PrintFromTopToBottomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/PrintFromTopToBottomTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/SymmetricalBTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/SymmetricalBTreeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/TreeDepthTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/TreeDepthTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/ConsumerProviderBlockTest$Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/ConsumerProviderBlockTest$Consumer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/ConsumerProviderBlockTest$Provider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/ConsumerProviderBlockTest$Provider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/ConsumerProviderBlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/ConsumerProviderBlockTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/Daemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/Daemon.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/InterruptTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/InterruptTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/Num.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/Num.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/Resource.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/Synchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/Synchronized.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/T.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/T.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/Thread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/Thread1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/ZeroToHundred.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/ZeroToHundred.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/ZeroToHundredTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/ZeroToHundredTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/array/FindNumberInTwoDimensionArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/FindNumberInTwoDimensionArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/array/MaxProfitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/MaxProfitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/array/MoreThanHalfNumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/MoreThanHalfNumTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/array/PrintMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/PrintMatrixTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/array/RobotRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/RobotRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/array/palindrome/PalindromeAttach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/palindrome/PalindromeAttach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/backtrack/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/backtrack/FindDuplicateSubtrees.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/backtrack/HasPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/backtrack/HasPath.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/bit_operation/NumberOf1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/bit_operation/NumberOf1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/dymanic_programming/CutRopeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/dymanic_programming/CutRopeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/dymanic_programming/MaxProfitIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/dymanic_programming/MaxProfitIII.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/dymanic_programming/UglyNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/dymanic_programming/UglyNumberTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/MultiplyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/MultiplyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/ShuffleArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/ShuffleArrayTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/AddBinary.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/ArrayPairSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/ArrayPairSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/DominantIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/DominantIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/FindDiagonalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/FindDiagonalOrder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/FindMaxConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/FindMaxConsecutiveOnes.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/MinSubArrayLen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/MinSubArrayLen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/PivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/PivotIndex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/RemoveElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/FindMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/FindMin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/FindPeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/FindPeakElement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/MySqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/MySqrt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/Search.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/SearchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/SearchRange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/list_node/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/list_node/MergeTwoLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/list_node/PalindromeListNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/list_node/PalindromeListNodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/math/CircleCountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/math/CircleCountTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/math/PowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/math/PowerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/queue/TwoQueueToStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/queue/TwoQueueToStackTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/HeapSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/HeapSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/MergeSortTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/stack/TwoStackToQueueTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/stack/TwoStackToQueueTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/BTreeFindPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/BTreeFindPathTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/BfsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/BfsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/HasSubTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/HasSubTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/MirrorBTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/MirrorBTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/PrintFromTopToBottomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/PrintFromTopToBottomTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/SymmetricTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/SymmetricalBTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/SymmetricalBTreeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/TreeDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/TreeDepthTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/VerifySquenceOfBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/VerifySquenceOfBSTTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/ConsumerProviderBlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/ConsumerProviderBlockTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Daemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/Daemon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/InterruptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/InterruptTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/Join.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/Synchronized.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/ZeroToHundredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/ZeroToHundredTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/concurrency/ZeroToHundredTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/ZeroToHundredTest2.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,6 +160,17 @@
     <configuration name="SearchRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.binary_search.SearchRange" />
       <module name="learn-java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -543,6 +434,7 @@
       <workItem from="1642683548305" duration="120000" />
       <workItem from="1648204739190" duration="144548000" />
       <workItem from="1648785841929" duration="599000" />
+      <workItem from="1650001232557" duration="1143000" />
     </task>
     <task id="LOCAL-00001" summary="5/14">
       <created>1557820735322</created>
@@ -572,7 +464,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630415103485</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="xx">
+      <created>1650001363826</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1650001363826</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
