@@ -22,6 +22,8 @@ public class GetNumberOfKTest {
 
 	/**
 	 * 思路:获取第一次的下标,再获取第二次的下标,注意返回-1是找不到
+	 *
+	 * 两次都要二分查找
 	 */
 	static int getNumberOfK(int[] array, int k) {
 		int last = getLast(array, k);

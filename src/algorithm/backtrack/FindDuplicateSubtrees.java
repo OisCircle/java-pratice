@@ -54,7 +54,8 @@ public class FindDuplicateSubtrees {
         n2.right = n5;
         n4.left = n6;
 
-        System.out.println(serial(root));
+        System.out.println(findDuplicateSubtrees(root));
+        System.out.println(serialMap);
     }
 
     public static List<TreeNode> findDuplicateSubtrees(TreeNode root) {

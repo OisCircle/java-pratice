@@ -20,7 +20,6 @@ public class InterruptTest {
 
 
 		Thread.sleep(6000L);
-		thread.interrupt();
 		System.out.println("interrupt...");
 
 
@@ -40,7 +39,6 @@ class Thread1 extends Thread {
 			}
 		} catch (InterruptedException e) {
 			System.out.println("stop sleeping...");
-			interrupted();
 		}
 	}
 }

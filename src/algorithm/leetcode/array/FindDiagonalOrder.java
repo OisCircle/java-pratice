@@ -6,6 +6,11 @@ import java.util.Collections;
 import java.util.List;
 
 /**
+ *
+ * 回形针打印矩阵
+ *
+ * 思路：直接斜着打印（比如下面的nums0，12369，每次都左下角一直遍历），遇到第一行的列等于偶数时做反转就好了
+ *
  * @author O
  * @since 2020/3/26
  */

@@ -1,6 +1,10 @@
 package algorithm.leetcode.array;
 
 /**
+ * 连续的1最长的长度
+ *
+ * 思路：边遍历，记录1最长记录，并且记录count，遇到count=0直接重新将count进行归位
+ *
  * @author O
  * @since 2020/3/28
  */

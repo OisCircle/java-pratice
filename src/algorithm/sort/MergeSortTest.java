@@ -35,7 +35,7 @@ public class MergeSortTest {
 			if (leftIndex >= left.length) {
 				result[resultIndex] = right[rightIndex++];
 			} else if (rightIndex >= right.length) {
-				result[resultIndex] = left[leftIndex];
+				result[resultIndex] = left[leftIndex++];
 			} else if (left[leftIndex] < right[rightIndex]) {
 				result[resultIndex] = left[leftIndex++];
 			} else {

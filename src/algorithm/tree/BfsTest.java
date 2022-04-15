@@ -63,6 +63,7 @@ public class BfsTest {
 	}
 
 
+	//按照层级遍历
 	static List<List<Integer>> levelOrder(TreeNode root) {
 		if (root == null) {
 			return new ArrayList<>();
@@ -71,27 +72,25 @@ public class BfsTest {
 		TreeNode node = root;
 		Queue<TreeNode> queue = new LinkedList<>();
 		List<Integer> list = new ArrayList<>();
-		TreeNode last = root;
-		TreeNode nextLast = null;
+		TreeNode curRowLast = root;
+		TreeNode nextRowLast = null;
 		queue.add(node);
 		while (!queue.isEmpty()) {
 			node = queue.poll();
 			list.add(node.val);
 			if (node.left != null) {
 				queue.offer(node.left);
-				nextLast = node.left;
+				nextRowLast = node.left;
 			}
 			if (node.right != null) {
 				queue.offer(node.right);
-				nextLast = node.right;
+				nextRowLast = node.right;
 			}
-			if (node == last) {
+			if (node == curRowLast) {
 				result.add(list);
 				list = new ArrayList<>();
-				last = nextLast;
+				curRowLast = nextRowLast;
 			}
-
-
 		}
 		return result;
 	}

@@ -18,6 +18,9 @@ public class MoreThanHalfNumTest {
 		System.out.println(MoreThanHalfNum_Solution(new int[]{3, 3, 3, 2, 2, 2}));
 	}
 
+	/**
+	* 思路：边找边加，找得到就次数+1，次数到了0，就换当前数字继续找
+	*/
 	static int MoreThanHalfNum_Solution(int[] array) {
 		if (array.length < 1) {
 			return 0;
@@ -36,15 +39,6 @@ public class MoreThanHalfNumTest {
 			}
 		}
 		if (count > 1) {
-			return num;
-		}
-		count = 0;
-		for (int i = 0; i < len; ++i) {
-			if (array[i] == num) {
-				count++;
-			}
-		}
-		if (count > len / 2) {
 			return num;
 		}
 		return 0;

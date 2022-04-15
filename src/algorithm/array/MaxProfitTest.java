@@ -20,6 +20,9 @@ public class MaxProfitTest {
 		System.out.println(maxProfit(prices3));
 	}
 
+	/**
+	* 思路：遍历过程中维护一个最小值，再利用当前值减去最小值来动态地运算出最大利润
+	*/
 	static int maxProfit(int[] prices) {
 		int len = 0;
 		if (prices != null && (len = prices.length) <= 1) {

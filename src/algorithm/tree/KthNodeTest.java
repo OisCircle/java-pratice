@@ -43,9 +43,6 @@ public class KthNodeTest {
 	 * 思路:中序遍历中的第k个就是我们要的结果,这里要注意两个判断非空的语句,通过这种方式来判断函数需不需要再递归下去
 	 */
 	void KthNode(TreeNode pRoot, int k) {
-		if (k < 1) {
-			return;
-		}
 		if (pRoot == null) {
 			return;
 		}

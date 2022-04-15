@@ -3,6 +3,10 @@ package algorithm.array;
 /**
  * <p>
  * 机器人运动范围
+ *
+ * 地上有一个m行和n列的方格。一个机器人从坐标0,0的格子开始移动，每一次只能向左，右，上，下四个方向移动一格，但是不能进入行坐标和列坐标的数位之和大于k的格子。
+ * 例如，当k为18时，机器人能够进入方格（35,37），因为3+5+3+7 = 18。但是，它不能进入方格（35,38），因为3+5+3+8 = 19。请问该机器人能够达到多少个格子？
+ *
  * 剑指13题
  * 回溯法
  * </p>
@@ -13,13 +17,11 @@ package algorithm.array;
  */
 public class RobotRange {
 	public static void main(String[] args) {
-		int threshold = 18;
-		int threshold2 = 12;
 		int rows = 40;
 		int cols = 40;
 
-		System.out.println(moveCount(threshold, rows, cols));
-		System.out.println(moveCount(threshold2, rows, cols));
+		System.out.println(moveCount(18, rows, cols));
+		System.out.println(moveCount(12, rows, cols));
 	}
 
 	static int moveCount(int threshold, int rows, int cols) {
@@ -28,27 +30,22 @@ public class RobotRange {
 		}
 		//初始化boolean
 		boolean[][] visited = new boolean[rows][cols];
-		for (int i = 0; i < rows; i++) {
-			for (int j = 0; j < cols; j++) {
-				visited[i][j] = false;
-			}
-		}
 
-		return moveCountCore(threshold, rows, cols, 0, 0, visited);
+		return moveAndCount(threshold, rows, cols, 0, 0, visited);
 	}
 
-	static int moveCountCore(int threshold, int rows, int cols, int row, int col, boolean[][] visited) {
+	static int moveAndCount(int threshold, int rows, int cols, int row, int col, boolean[][] visited) {
 		int count = 0;
-		if (check(threshold, rows, cols, row, col, visited)) {
-			count = 1 + moveCountCore(threshold, rows, cols, row + 1, col, visited)
-					+ moveCountCore(threshold, rows, cols, row, col + 1, visited)
-					+ moveCountCore(threshold, rows, cols, row - 1, col, visited)
-					+ moveCountCore(threshold, rows, cols, row, col - 1, visited);
+		if (canMove(threshold, rows, cols, row, col, visited)) {
+			count = 1 + moveAndCount(threshold, rows, cols, row + 1, col, visited)
+			        + moveAndCount(threshold, rows, cols, row, col + 1, visited)
+			        + moveAndCount(threshold, rows, cols, row - 1, col, visited)
+			        + moveAndCount(threshold, rows, cols, row, col - 1, visited);
 		}
 		return count;
 	}
 
-	static boolean check(int threshold, int rows, int cols, int row, int col, boolean[][] visited) {
+	static boolean canMove(int threshold, int rows, int cols, int row, int col, boolean[][] visited) {
 		if (row >= 0 && col >= 0 && row < rows && col < cols && !visited[row][col] &&
 				getDigitSum(row) + getDigitSum(col) <= threshold) {
 			visited[row][col] = true;

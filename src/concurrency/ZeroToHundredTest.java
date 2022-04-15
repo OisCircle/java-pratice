@@ -19,11 +19,8 @@ public class ZeroToHundredTest {
 		Thread threadB = new Thread(new ZeroToHundred("------", false, atomicInteger));
 		threadB.start();
 
-		while (true) {
-			Thread.sleep(1000L);
-			System.out.println("A is alive: " + threadA.isAlive());
-			System.out.println("B is alive: " + threadB.isAlive());
-		}
+		threadA.join();
+		threadB.join();
 	}
 }
 

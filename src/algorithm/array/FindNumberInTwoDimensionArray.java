@@ -12,7 +12,10 @@ package algorithm.array;
  */
 public class FindNumberInTwoDimensionArray {
 	public static void main(String[] args) {
-		int[][] arr = new int[][]{{1, 2, 3, 4}, {2, 3, 5, 6}, {5, 6, 8, 9}, {6, 7, 10, 11}};
+		int[][] arr = new int[][]{{1, 2, 3, 4},
+		                          {2, 3, 5, 6},
+		                          {5, 6, 8, 9},
+		                          {6, 7, 10, 11}};
 		System.out.println(Find(7, arr));
 		System.out.println(Find(8, arr));
 		System.out.println(Find(1, arr));

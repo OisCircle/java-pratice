@@ -12,7 +12,9 @@ package algorithm.backtrack;
  */
 public class HasPath {
     public static void main(String[] args) {
-        char[] matrix = "abcesfcsadee".toCharArray();
+        char[] matrix = (  "abce"
+                         + "sfcs"
+                         + "adee").toCharArray();
         char[] str = "bcced".toCharArray();
         char[] str2 = "abcb".toCharArray();
         char[] str3 = "abcesfcsadee".toCharArray();

@@ -14,6 +14,7 @@ import java.util.List;
  * @since 2019/4/19
  */
 public class BSTtoDNodeTest {
+
 	public static void main(String[] args) {
 		TreeNode n1 = new TreeNode(5);
 		TreeNode n2 = new TreeNode(3);
@@ -78,12 +79,10 @@ public class BSTtoDNodeTest {
 		}
 		return node;
 	}
-
+	/**
+	* 中序遍历是 2 3 4 5 7 8 9，pre要传null，也就是 null 2 3 4 5 7 8 9，所以要处理pre == null的情况，2的pre是null
+	*/
 	static TreeNode convert2(TreeNode cur, TreeNode pre) {
-		//中序递归终止条件
-		if (cur == null) {
-			return null;
-		}
 		if (cur.left != null) {
 			//将pre作为下一个要遍历的节点的前驱
 			pre = convert2(cur.left, pre);

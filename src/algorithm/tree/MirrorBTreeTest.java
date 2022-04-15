@@ -2,7 +2,7 @@ package algorithm.tree;
 
 /**
  * <p>
- *
+ * 树镜像化，前序遍历，每个节点下的左右子节点都交换即可，如果左右子节点都是null就不要交换了
  * </p>
  *
  * @author O

@@ -26,6 +26,11 @@ public class PalindromeAttach {
 
 	/**
 	 * 思路:获取一个反转字符串,从左到右与原字符串逐个对比
+	 *
+	 * 		abab
+	 * 		 baba
+	 *
+	 * 		 上面那种情况就是最短长度，可以看到中间的一定是每个都相等的，下面的反转字符串挨个移动即可
 	 */
 	static void print(String s) {
 		if (s == null || s.length() < 1) {
@@ -41,6 +46,7 @@ public class PalindromeAttach {
 				if (s.charAt(sIndex) != reverse.charAt(rIndex)) {
 					break;
 				} else if (sIndex == len - 1) {
+					//对比到最后一个了，说明前面的都相等，是最短回文串
 					System.out.println(len + (len - rIndex - 1));
 					return;
 				}

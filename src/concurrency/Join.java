@@ -2,7 +2,7 @@ package concurrency;
 
 /**
  * <p>
- *
+ * 正常来说主线程会立马结束，控制台停止打印"finished in ..."，但是用了join就是等待他结束，再运行下面的代码
  * </p>
  *
  * @author O

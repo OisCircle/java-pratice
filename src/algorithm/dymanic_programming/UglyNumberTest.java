@@ -59,7 +59,7 @@ public class UglyNumberTest {
 	}
 
 	static int minWithin3Numbers(int a, int b, int c) {
-		return b < a ? (c < a ? c : b) : (c < a ? c : a);
+		return b < a ? (c < a ? c : b) : (Math.min(c, a));
 	}
 
 	static boolean isUgly(int num) {

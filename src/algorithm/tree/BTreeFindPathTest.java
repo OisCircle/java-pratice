@@ -29,10 +29,10 @@ public class BTreeFindPathTest {
 		int currentNum = 0;
 		Vector<BTree> path = new Vector<>();
 		path.add(root);
-		findPath(root, expectedNum, currentNum, path);
+		findPathCore(root, expectedNum, currentNum, path);
 	}
 
-	static void findPath(BTree node, int expectedNum, int currentNum, Vector<BTree> path) {
+	static void findPathCore(BTree node, int expectedNum, int currentNum, Vector<BTree> path) {
 		currentNum += node.val;
 		path.add(node);
 		boolean isLeaf = node.left == null && node.right == null;
@@ -40,10 +40,10 @@ public class BTreeFindPathTest {
 			printPath(path);
 		}
 		if (node.left != null) {
-			findPath(node.left, expectedNum, currentNum, path);
+			findPathCore(node.left, expectedNum, currentNum, path);
 		}
 		if (node.right != null) {
-			findPath(node.right, expectedNum, currentNum, path);
+			findPathCore(node.right, expectedNum, currentNum, path);
 		}
 		//返回父节点之前要删除该节点并减去当前节点的值（在这里不用手动减currentNum的值，因为回到父节点的值就是没有加过的）
 		path.remove(node);

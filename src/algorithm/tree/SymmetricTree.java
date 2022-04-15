@@ -45,7 +45,7 @@ public class SymmetricTree {
 		if (left == null || right == null) {
 			return false;
 		}
-		//对称了，但是值不一样，递归结束
+		//值不一样，递归结束
 		if (left.val != right.val) {
 			return false;
 		}

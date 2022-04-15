@@ -22,7 +22,7 @@ public class NumberOf1Test {
 	 * 思路:
 	 * a)10100-1=10011;
 	 * b)10100&10011=10000;
-	 * c)多少次ab这样的操作,代表有多少个1
+	 * c)多少次ab这样的操作(每次都会少一个1),代表有多少个1
 	 */
 	static int numberOf1(int n) {
 		int count = 0;

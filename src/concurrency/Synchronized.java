@@ -1,5 +1,7 @@
 package concurrency;
 
+import java.util.Random;
+
 /**
  * <p>
  *
@@ -10,6 +12,7 @@ package concurrency;
  * @since 2018/7/26
  */
 public class Synchronized {
+
 	public static void main(String[] args) {
 		Resource t1 = new Resource();
 		Resource t2 = new Resource();
@@ -22,22 +25,30 @@ public class Synchronized {
 }
 
 class Resource extends Thread {
+
 	int i = 3;
+	Random random = new Random();
 
 	@Override
 	public void run() {
-			while (i > 0) {
-				Num.getNum();
-				i--;
+		while (i > 0) {
+			Num.getNum();
+			i--;
+			try {
+				Thread.sleep(random.nextInt(3) * 1000 + 1000);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
 			}
+		}
 	}
 }
 
 class Num {
+
 	private static int num = 3;
 
 	synchronized public static void getNum() {
-		System.out.println(T.currentThread().getName() + " got " + num);
+		System.out.println(Thread.currentThread().getName() + " got " + num);
 		num--;
 	}
 }

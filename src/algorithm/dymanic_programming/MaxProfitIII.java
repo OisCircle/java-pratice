@@ -34,24 +34,28 @@ package algorithm.dymanic_programming;
  * @since 2019/4/23
  */
 public class MaxProfitIII {
+
+	public static void main(String[] args) {
+		System.out.println(maxProfit(new int[]{3, 3, 5, 0, 0, 3, 1, 4}));
+	}
 	/**
 	 * 思路：动态规划，注意for里面的含义
 	 */
-	public int maxProfit(int[] prices) {
-		int buy1 = Integer.MIN_VALUE;
-		int sell1 = 0;
-		int buy2 = Integer.MIN_VALUE;
-		int sell2 = 0;
+	public static int maxProfit(int[] prices) {
+		int buy1Cost = Integer.MIN_VALUE;
+		int sell1Earn = 0;
+		int buy2Cost = Integer.MIN_VALUE;
+		int sell2Earn = 0;
 		for (int p : prices) {
-			//买/不买p
-			buy1 = Math.max(buy1, -p);
-			//卖/不卖p
-			sell1 = Math.max(sell1, buy1 + p);
-			//买/不买p
-			buy2 = Math.max(buy2, sell1 - p);
-			//卖/不卖p
-			sell2 = Math.max(sell2, buy2 + p);
+			//买/不买p 谁花的钱少
+			buy1Cost = Math.max(-p, buy1Cost);
+			//卖/不卖p 谁赚的钱多
+			sell1Earn = Math.max(buy1Cost + p, sell1Earn);
+			//买/不买p 谁花的钱少
+			buy2Cost = Math.max(sell1Earn - p, buy2Cost);
+			//卖/不卖p 谁赚的钱多
+			sell2Earn = Math.max(buy2Cost + p, sell2Earn);
 		}
-		return sell2;
+		return sell2Earn;
 	}
 }

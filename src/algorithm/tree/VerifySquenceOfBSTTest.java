@@ -2,7 +2,7 @@ package algorithm.tree;
 
 /**
  * <p>
- *
+ * 验证是否是后序遍历的二叉搜索树
  * </p>
  *
  * @author O

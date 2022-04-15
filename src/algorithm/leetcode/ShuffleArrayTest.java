@@ -5,7 +5,7 @@ import java.util.Random;
 
 /**
  * <p>
- *
+ * 随机重刷字符串
  * </p>
  *
  * @author O

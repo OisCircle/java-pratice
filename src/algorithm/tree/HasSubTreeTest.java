@@ -79,6 +79,7 @@ public class HasSubTreeTest {
 
 	static boolean compareRecursively(BTree main, BTree sub) {
 		//这个判断要放在上面
+		//子树对比完成
 		if (sub == null) {
 			return true;
 		}
@@ -89,6 +90,7 @@ public class HasSubTreeTest {
 		if (main.val != sub.val) {
 			return false;
 		}
+		//val相等则继续比较各自的左右子节点
 		return compareRecursively(main.left, sub.left) && compareRecursively(main.right, sub.right);
 	}
 }

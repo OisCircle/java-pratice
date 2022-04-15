@@ -58,6 +58,8 @@ public class HeapSortTest {
 
 	/**
 	 * 从上往下，从根开始对比下面的子节点，哪个子节点大就交换，然后继续对比被交换了的子节点
+	 *
+	 * 每一轮下来都能把最大的值筛选出来，和arr[0]做交换
 	 */
 	static void heapify(int[] arr, int end) {
 		int current, left, right, max;
@@ -82,6 +84,8 @@ public class HeapSortTest {
 
 	/**
 	 * 从上往下添加节点，构建堆，遇到比父节点大的交换，再继续交换交换了的节点
+	 *
+	 * 找出最大的数字，在0下标
 	 */
 	static void heapInsert(int[] arr) {
 		//需要声明current，parent，循环上升数字current，一直和父节点对比

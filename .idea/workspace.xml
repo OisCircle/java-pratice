@@ -3,6 +3,9 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -22,11 +25,136 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f9db0a2c-277a-4379-84e0-24e3c3091eb6" name="Default" comment="5/14" />
+    <list default="true" id="f9db0a2c-277a-4379-84e0-24e3c3091eb6" name="Default" comment="xx">
+      <change afterPath="$PROJECT_DIR$/src/algorithm/bit_operation/HasAlternatingBits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/H2O.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/ZeroEvenOdd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/bidder/BidderMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/bidder/Host.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/bidder/Joiner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/concurrency/bidder/SelectResult.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/FindNumberInTwoDimensionArray.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/FindNumberInTwoDimensionArray.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/GetNumberOfKTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/GetNumberOfKTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/MaxProfitTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/MaxProfitTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/MoreThanHalfNumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/MoreThanHalfNumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/PrintMatrixTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/PrintMatrixTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/RobotRange.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/RobotRange.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/palindrome/PalindromeAttach.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/array/palindrome/PalindromeAttach.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/backtrack/FindDuplicateSubtrees.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/backtrack/FindDuplicateSubtrees.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/backtrack/HasPath.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/backtrack/HasPath.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/dymanic_programming/CutRopeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/dymanic_programming/CutRopeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/dymanic_programming/MaxProfitIII.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/dymanic_programming/MaxProfitIII.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/dymanic_programming/UglyNumberTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/dymanic_programming/UglyNumberTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/MultiplyTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/MultiplyTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/AddBinary.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/AddBinary.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/ArrayPairSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/ArrayPairSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/DominantIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/DominantIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/FindDiagonalOrder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/FindDiagonalOrder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/FindMaxConsecutiveOnes.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/FindMaxConsecutiveOnes.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/MinSubArrayLen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/MinSubArrayLen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/PivotIndex.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/PivotIndex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/RemoveElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/RemoveElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/array/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/FindMin.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/FindMin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/FindPeakElement.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/FindPeakElement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/MySqrt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/MySqrt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/Search.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/leetcode/binary_search/Search.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/MergeTwoLists.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/MergeTwoLists.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/PalindromeListNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/list_node/PalindromeListNodeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/CircleCountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/CircleCountTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/PowerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/math/PowerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/queue/MyStack.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/queue/MyStack.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/queue/TwoQueueToStackTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/queue/TwoQueueToStackTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/HeapSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/HeapSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/MergeSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/sort/MergeSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/stack/TwoStackToQueueTest2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/stack/TwoStackToQueueTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BSTtoDNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BSTtoDNodeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BTreeFindPathTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BTreeFindPathTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BfsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/BfsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/HasSubTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/HasSubTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/KthNodeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/KthNodeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/PrintFromTopToBottomTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/PrintFromTopToBottomTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/SymmetricalBTreeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/SymmetricalBTreeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/TreeDepthTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/algorithm/tree/TreeDepthTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/ConsumerProviderBlockTest$Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/ConsumerProviderBlockTest$Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/ConsumerProviderBlockTest$Provider.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/ConsumerProviderBlockTest$Provider.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/ConsumerProviderBlockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/ConsumerProviderBlockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/Daemon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/Daemon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/InterruptTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/InterruptTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/Num.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/Num.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/Resource.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/Resource.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/Synchronized.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/Synchronized.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/T.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/T.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/Thread1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/Thread1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/ZeroToHundred.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/ZeroToHundred.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/learn-java/concurrency/ZeroToHundredTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/learn-java/concurrency/ZeroToHundredTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/array/FindNumberInTwoDimensionArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/FindNumberInTwoDimensionArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/array/MaxProfitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/MaxProfitTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/array/MoreThanHalfNumTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/MoreThanHalfNumTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/array/PrintMatrixTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/PrintMatrixTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/array/RobotRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/RobotRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/array/palindrome/PalindromeAttach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/array/palindrome/PalindromeAttach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/backtrack/FindDuplicateSubtrees.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/backtrack/FindDuplicateSubtrees.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/backtrack/HasPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/backtrack/HasPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/bit_operation/NumberOf1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/bit_operation/NumberOf1Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/dymanic_programming/CutRopeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/dymanic_programming/CutRopeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/dymanic_programming/MaxProfitIII.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/dymanic_programming/MaxProfitIII.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/dymanic_programming/UglyNumberTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/dymanic_programming/UglyNumberTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/MultiplyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/MultiplyTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/ShuffleArrayTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/ShuffleArrayTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/AddBinary.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/AddBinary.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/ArrayPairSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/ArrayPairSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/DominantIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/DominantIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/FindDiagonalOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/FindDiagonalOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/FindMaxConsecutiveOnes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/FindMaxConsecutiveOnes.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/MinSubArrayLen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/MinSubArrayLen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/PivotIndex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/PivotIndex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/RemoveElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/RemoveElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/array/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/array/TwoSum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/FindMin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/FindMin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/FindPeakElement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/FindPeakElement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/MySqrt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/MySqrt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/Search.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/Search.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/SearchRange.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/leetcode/binary_search/SearchRange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/list_node/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/list_node/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/list_node/PalindromeListNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/list_node/PalindromeListNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/math/CircleCountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/math/CircleCountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/math/PowerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/math/PowerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/queue/TwoQueueToStackTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/queue/TwoQueueToStackTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/HeapSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/HeapSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/sort/MergeSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/sort/MergeSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/stack/TwoStackToQueueTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/stack/TwoStackToQueueTest2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/BTreeFindPathTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/BTreeFindPathTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/BfsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/BfsTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/HasSubTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/HasSubTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/MirrorBTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/MirrorBTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/PrintFromTopToBottomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/PrintFromTopToBottomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/SymmetricTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/SymmetricTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/SymmetricalBTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/SymmetricalBTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/TreeDepthTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/TreeDepthTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/algorithm/tree/VerifySquenceOfBSTTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithm/tree/VerifySquenceOfBSTTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/ConsumerProviderBlockTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/ConsumerProviderBlockTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Daemon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/Daemon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/InterruptTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/InterruptTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Join.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/Join.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/Synchronized.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/Synchronized.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/ZeroToHundredTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/ZeroToHundredTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/concurrency/ZeroToHundredTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/concurrency/ZeroToHundredTest2.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/Learn_Java$HeapOOM.ic" NAME="HeapOOM Coverage Results" MODIFIED="1538433525211" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
@@ -50,10 +178,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="JsbtTreeLayoutManager">
     <layout place="tools.popupGrunt">
       <scroll-view-position x="0" y="0" />
     </layout>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1idM2IMTRYBNSlPW655dwva5XXj" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -64,12 +203,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/GitHubRepositories/Learn-Java/src/Main.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="extract.method.default.visibility" value="private" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/wifi_monitor" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -82,13 +223,12 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\GitHubRepositories\Learn-Java\src" />
-    </key>
-    <key name="IntroduceConstantDialog.RECENTS_KEY">
-      <recent name="pattern.adapter.qcq.XmlSystem" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pattern.adapter.qcq" />
+      <recent name="pattern.state" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\GitHubRepositories\Learn-Java\src" />
@@ -97,79 +237,71 @@
       <recent name="C:\GitHubRepositories\Learn-Java" />
       <recent name="C:\GitHubRepositories\Learn-Java\src\algorithm" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GitHubRepositories\Learn-Java\src" />
+    </key>
+    <key name="IntroduceConstantDialog.RECENTS_KEY">
+      <recent name="pattern.adapter.qcq.XmlSystem" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="algorithm.backtrack" />
       <recent name="" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="pattern.adapter.qcq" />
-      <recent name="pattern.state" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.GenericArray2">
-    <configuration name="ArrayOfGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.test4.ArrayOfGeneric" />
+  <component name="RunManager" selected="Application.SearchRange">
+    <configuration name="FindMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.binary_search.FindMin" />
       <module name="learn-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CreatorGeneric" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.test3.CreatorGeneric" />
+    <configuration name="FindPeakElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.binary_search.FindPeakElement" />
       <module name="learn-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryConstraint" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.test2.FactoryConstraint" />
+    <configuration name="MySqrt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.binary_search.MySqrt" />
       <module name="learn-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.test5.GenericArray" />
+    <configuration name="Search" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.binary_search.Search" />
       <module name="learn-java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericArray2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generic.test6.GenericArray2" />
+    <configuration name="SearchRange" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithm.leetcode.binary_search.SearchRange" />
       <module name="learn-java" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FactoryConstraint" />
-      <item itemvalue="Application.CreatorGeneric" />
-      <item itemvalue="Application.ArrayOfGeneric" />
-      <item itemvalue="Application.GenericArray" />
-      <item itemvalue="Application.GenericArray2" />
+      <item itemvalue="Application.FindMin" />
+      <item itemvalue="Application.FindPeakElement" />
+      <item itemvalue="Application.MySqrt" />
+      <item itemvalue="Application.Search" />
+      <item itemvalue="Application.SearchRange" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.GenericArray2" />
-        <item itemvalue="Application.GenericArray" />
-        <item itemvalue="Application.ArrayOfGeneric" />
-        <item itemvalue="Application.CreatorGeneric" />
-        <item itemvalue="Application.FactoryConstraint" />
+        <item itemvalue="Application.SearchRange" />
+        <item itemvalue="Application.FindPeakElement" />
+        <item itemvalue="Application.Search" />
+        <item itemvalue="Application.MySqrt" />
+        <item itemvalue="Application.FindMin" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -407,6 +539,10 @@
       <workItem from="1603538082892" duration="5250000" />
       <workItem from="1604372236669" duration="601000" />
       <workItem from="1604466168565" duration="295000" />
+      <workItem from="1630414806736" duration="322000" />
+      <workItem from="1642683548305" duration="120000" />
+      <workItem from="1648204739190" duration="144548000" />
+      <workItem from="1648785841929" duration="599000" />
     </task>
     <task id="LOCAL-00001" summary="5/14">
       <created>1557820735322</created>
@@ -429,11 +565,18 @@
       <option name="project" value="LOCAL" />
       <updated>1604547881304</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="xx">
+      <created>1630415103484</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1630415103485</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -449,46 +592,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="5/14" />
-    <option name="LAST_COMMIT_MESSAGE" value="5/14" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="879" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1603549630885">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="879" y="163" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1603549630885" />
-    <state width="1440" height="231" key="GridCell.Tab.0.bottom" timestamp="1604372216160">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.bottom/0.0.1440.900/-523.-1440.2560.1440@0.0.1440.900" timestamp="1604372216160" />
-    <state width="747" height="231" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1603621131436" />
-    <state width="822" height="231" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1603032187992" />
-    <state width="1440" height="231" key="GridCell.Tab.0.center" timestamp="1604372216157">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.center/0.0.1440.900/-523.-1440.2560.1440@0.0.1440.900" timestamp="1604372216157" />
-    <state width="747" height="231" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1603621131433" />
-    <state width="822" height="231" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1603032187987" />
-    <state width="1440" height="231" key="GridCell.Tab.0.left" timestamp="1604372216156">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.left/0.0.1440.900/-523.-1440.2560.1440@0.0.1440.900" timestamp="1604372216156" />
-    <state width="747" height="231" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1603621131432" />
-    <state width="822" height="231" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1603032187986" />
-    <state width="1440" height="231" key="GridCell.Tab.0.right" timestamp="1604372216158">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state width="1440" height="231" key="GridCell.Tab.0.right/0.0.1440.900/-523.-1440.2560.1440@0.0.1440.900" timestamp="1604372216158" />
-    <state width="747" height="231" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1603621131434" />
-    <state width="822" height="231" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1603032187990" />
-    <state x="730" y="205" width="598" height="490" key="find.popup" timestamp="1603030248420">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="730" y="205" width="598" height="490" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1603030248420" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1603030235582">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/-523.-1440.2560.1440@0.0.1440.900" timestamp="1602236005565" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1603030235582" />
+    <MESSAGE value="xx" />
+    <option name="LAST_COMMIT_MESSAGE" value="xx" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -659,148 +764,83 @@
           <option name="timeStamp" value="546" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>83</line>
-          <option name="timeStamp" value="672" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>84</line>
-          <option name="timeStamp" value="673" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="674" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>88</line>
-          <option name="timeStamp" value="675" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="676" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>91</line>
-          <option name="timeStamp" value="677" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>92</line>
-          <option name="timeStamp" value="678" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>95</line>
-          <option name="timeStamp" value="679" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>96</line>
-          <option name="timeStamp" value="680" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>97</line>
-          <option name="timeStamp" value="681" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
-          <line>99</line>
-          <option name="timeStamp" value="682" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java</url>
-          <line>61</line>
+          <line>63</line>
           <option name="timeStamp" value="685" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java</url>
-          <line>62</line>
+          <line>64</line>
           <option name="timeStamp" value="686" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java</url>
-          <line>63</line>
+          <line>65</line>
           <option name="timeStamp" value="688" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java</url>
-          <line>64</line>
+          <line>66</line>
           <option name="timeStamp" value="689" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java</url>
-          <line>65</line>
+          <line>67</line>
           <option name="timeStamp" value="690" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java</url>
-          <line>66</line>
+          <line>68</line>
           <option name="timeStamp" value="691" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java</url>
-          <line>68</line>
+          <line>70</line>
           <option name="timeStamp" value="692" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java</url>
-          <line>69</line>
+          <line>71</line>
           <option name="timeStamp" value="693" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java</url>
-          <line>70</line>
+          <line>72</line>
           <option name="timeStamp" value="694" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java</url>
-          <line>72</line>
+          <line>74</line>
           <option name="timeStamp" value="695" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/array/GetNumberOfKTest.java</url>
-          <line>74</line>
+          <line>76</line>
           <option name="timeStamp" value="696" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
           <line>45</line>
-          <option name="timeStamp" value="700" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>46</line>
-          <option name="timeStamp" value="701" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>48</line>
           <option name="timeStamp" value="702" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>49</line>
+          <line>46</line>
           <option name="timeStamp" value="703" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>60</line>
+          <line>57</line>
           <option name="timeStamp" value="713" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>56</line>
+          <line>53</line>
           <option name="timeStamp" value="715" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/tree/KthNodeTest.java</url>
-          <line>57</line>
+          <line>54</line>
           <option name="timeStamp" value="716" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -863,13 +903,8 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/leetcode/array/FindDiagonalOrder.java</url>
-          <line>61</line>
+          <line>66</line>
           <option name="timeStamp" value="765" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/linklist/GetIntersectionNode.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="774" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/leetcode/linklist/AddTwoNumbers.java</url>
@@ -893,13 +928,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/leetcode/binary_search/MySqrt.java</url>
-          <line>11</line>
+          <line>20</line>
           <option name="timeStamp" value="792" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/algorithm/leetcode/binary_search/SearchRange.java</url>
-          <line>21</line>
+          <line>29</line>
           <option name="timeStamp" value="799" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/tree/BSTtoDNodeTest.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="804" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithm/leetcode/MultiplyTest.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="810" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url />
@@ -967,7 +1012,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithm/leetcode/array/AddBinary.java</url>
-          <line>34</line>
+          <line>37</line>
           <properties class="algorithm.leetcode.array.AddBinary" method="addBinary">
             <option name="EMULATED" value="true" />
           </properties>
@@ -975,7 +1020,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/algorithm/leetcode/array/MinSubArrayLen.java</url>
-          <line>20</line>
+          <line>25</line>
           <properties class="algorithm.leetcode.array.MinSubArrayLen" method="minSubArrayLen">
             <option name="EMULATED" value="true" />
           </properties>
@@ -991,6 +1036,11 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="algorithm.tree.TreeNode" memberName="left" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="watch">

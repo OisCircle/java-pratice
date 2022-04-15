@@ -1,7 +1,5 @@
 package algorithm.queue;
 
-import reflect.MyClass;
-
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -40,17 +38,17 @@ public class TwoQueueToStackTest {
 
 class MyStack {
 	private Queue<Integer> q1, q2;
-	private boolean q1Turn;
+	private boolean isQueue1ToOffer;
 	private int counter;
 	MyStack() {
-		q1Turn = true;
+		isQueue1ToOffer = true;
 		counter = 0;
 		q1 = new LinkedList<>();
 		q2 = new LinkedList<>();
 	}
 
 	public void push(int value) {
-		if (q1Turn) {
+		if (isQueue1ToOffer) {
 			q1.offer(value);
 		} else {
 			q2.offer(value);
@@ -64,17 +62,17 @@ class MyStack {
 		if (q1.isEmpty() && q2.isEmpty()) {
 			throw new Exception("stack is empty");
 		}
-		if (q1Turn) {
+		if (isQueue1ToOffer) {
 			while (limit-- > 1) {
 				q2.offer(q1.poll());
 			}
-			q1Turn = !q1Turn;
+			isQueue1ToOffer = !isQueue1ToOffer;
 			result= q1.poll();
 		} else {
 			while (limit-- > 1) {
 				q1.offer(q2.poll());
 			}
-			q1Turn = !q1Turn;
+			isQueue1ToOffer = !isQueue1ToOffer;
 			result= q2.poll();
 		}
 		counter --;

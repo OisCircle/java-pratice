@@ -30,6 +30,7 @@ public class TreeDepthTest {
 		if (root == null) {
 			return 0;
 		}
+		//后续遍历，先递归进去再取max
 		return Math.max(treeDepth(root.left) + 1, treeDepth(root.right) + 1);
 	}
 }

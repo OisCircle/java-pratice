@@ -1,5 +1,6 @@
 package concurrency;
 
+import java.util.Random;
 import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingDeque;
 
@@ -13,8 +14,9 @@ import java.util.concurrent.LinkedBlockingDeque;
  * @since 2019/3/23
  */
 public class ConsumerProviderBlockTest {
-	//这个构造函数有点奇怪，capacity为1代表最多2个队列元素
+
 	private static BlockingQueue<Integer> queue = new LinkedBlockingDeque<>(1);
+	private static Random random = new Random();
 
 	public static void main(String[] args) {
 		new Thread(new Provider()).start();
@@ -22,17 +24,18 @@ public class ConsumerProviderBlockTest {
 	}
 
 	static class Provider implements Runnable {
+
 		int number = 1;
 
 		@Override
 		public void run() {
 			try {
 				while (true) {
+					queue.put(number);
 					System.out.println("生产者生产: " + number);
-					System.out.println("当前队列长度: " + queue.size());
-					queue.put(number++);
+					number++;
 					//模拟速度不一致
-					Thread.sleep((long) ((Math.random() * 3000) + 1));
+					Thread.sleep((random.nextInt(3) * 1000) + 1000);
 				}
 			} catch (Exception e) {
 				e.printStackTrace();
@@ -41,16 +44,16 @@ public class ConsumerProviderBlockTest {
 	}
 
 	static class Consumer implements Runnable {
+
 		@Override
 		public void run() {
 			try {
 				while (true) {
 					Integer number = queue.take();
 					System.out.println("消费者消费: " + number);
-					System.out.println("当前队列长度: " + queue.size());
 
 					//模拟速度不一致
-					Thread.sleep((long) ((Math.random() * 3000) + 1));
+					Thread.sleep((random.nextInt(3) * 1000) + 1000);
 				}
 			} catch (Exception e) {
 				e.printStackTrace();

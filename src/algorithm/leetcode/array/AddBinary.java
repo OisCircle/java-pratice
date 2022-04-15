@@ -3,6 +3,9 @@ package algorithm.leetcode.array;
 import java.math.BigInteger;
 
 /**
+ *
+ * 二进制相加
+ *
  * @author O
  * @since 2020/3/27
  */

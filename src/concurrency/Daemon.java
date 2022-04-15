@@ -2,7 +2,7 @@ package concurrency;
 
 /**
  * <p>
- *
+ * 只要当前JVM实例中尚存在任何一个非守护线程没有结束，守护线程就全部工作；只有当最后一个非守护线程结束时，守护线程随着JVM一同结束工作
  * </p>
  *
  * @author O
@@ -10,6 +10,7 @@ package concurrency;
  * @since 2018/7/26
  */
 public class Daemon {
+
 	public static void main(String[] args) throws InterruptedException {
 		T t = new T();
 		t.setDaemon(true);
@@ -24,15 +25,17 @@ public class Daemon {
 	}
 }
 
-class T extends Thread{
+class T extends Thread {
+
 	@Override
 	public void run() {
-		System.out.println("start...没有end则该线程是守护线程");
-		try {
-			Thread.sleep(1000L);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
+		while (true) {
+			System.out.println("守护线程工作中");
+			try {
+				Thread.sleep(1000L);
+			} catch (InterruptedException e) {
+				e.printStackTrace();
+			}
 		}
-		System.out.println("end...");
 	}
 }

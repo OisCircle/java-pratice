@@ -1,6 +1,9 @@
 package algorithm.leetcode.binary_search;
 
 /**
+ *
+ * 旋转数组的搜索
+ *
  * @author O
  * @since 2020/5/7
  */
@@ -29,8 +32,9 @@ public class Search {
             if (target == nums[mid]) {
                 return mid;
             }
+            //旋转
             if (nums[l] > nums[r]) {
-                //旋转
+                //需要画图理解，画两段三角形即可，三角形一边大一边小，就可以分成下面这4种情况
                 if (target >= nums[l] && target <= nums[mid]) {
                     r = mid - 1;
                 } else if (target >= nums[mid] && target <=nums[r]) {

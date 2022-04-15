@@ -3,6 +3,9 @@ package algorithm.leetcode.array;
 import java.util.Arrays;
 
 /**
+ *
+ * 排序数组，两数之合刚好等于target的数字对应的下标位置
+ *
  * @author O
  * @since 2020/3/28
  */

@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * <p>
- *
+ * 是否是回文链表
  * </p>
  *
  * @author O
@@ -18,12 +18,14 @@ public class PalindromeListNodeTest {
 		ListNode l3 = new ListNode(2);
 		ListNode l4 = new ListNode(1);
 
+
 		head.next = l2;
 		l2.next = l3;
 		l3.next = l4;
 
-		System.out.println(isPalindrome(head));
+		head.print();
 
+		System.out.println(isPalindrome(head));
 
 	}
 

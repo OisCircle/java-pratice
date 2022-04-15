@@ -23,6 +23,7 @@ public class TwoStackToQueueTest2 {
 		queue.push(1);
 		queue.push(2);
 		System.out.println(queue.pop());
+		System.out.println(queue.pop());
 	}
 
 	private Stack<Integer> in = new Stack<>();

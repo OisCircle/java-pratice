@@ -8,6 +8,8 @@ import java.util.Queue;
 /**
  * <p>
  * 从上往下打印出二叉树的每个节点，同层节点从左至右打印。
+ *
+ * 使用queue即可
  * </p>
  *
  * @author O

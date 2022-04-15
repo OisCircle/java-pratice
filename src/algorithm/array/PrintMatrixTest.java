@@ -15,10 +15,19 @@ import java.util.ArrayList;
  */
 public class PrintMatrixTest {
 	public static void main(String[] args) {
-		System.out.println(printMatrix(new int[][]{{1, 2, 3, 4}, {12, 13, 14, 5}, {11, 16, 15, 6}, {10, 9, 8, 7}}));
-		System.out.println(printMatrix(new int[][]{{1, 2, 3, 4}, {8, 7, 6, 5}}));
-		System.out.println(printMatrix(new int[][]{{1, 2}, {8, 3}, {7, 4}, {6, 5}}));
-		System.out.println(printMatrix(new int[][]{{1, 2, 3, 4, 5}, {12, 13, 14, 15, 6}, {11, 10, 9, 8, 7}}));
+		System.out.println(printMatrix(new int[][]{{1, 2, 3, 4},
+		                                           {12, 13, 14, 5},
+		                                           {11, 16, 15, 6},
+		                                           {10, 9, 8, 7}}));
+		System.out.println(printMatrix(new int[][]{{1, 2, 3, 4},
+		                                           {8, 7, 6, 5}}));
+		System.out.println(printMatrix(new int[][]{{1, 2},
+		                                           {8, 3},
+		                                           {7, 4},
+		                                           {6, 5}}));
+		System.out.println(printMatrix(new int[][]{{1, 2, 3, 4, 5},
+		                                           {12, 13, 14, 15, 6},
+		                                           {11, 10, 9, 8, 7}}));
 		System.out.println(printMatrix(new int[][]{{1, 2, 3, 4}, {10, 11, 12, 5}, {9, 8, 7, 6}}));
 		System.out.println(printMatrix(new int[][]{{1, 2, 3}, {10, 11, 4}, {9, 12, 5}, {8, 7, 6}}));
 		System.out.println(printMatrix(new int[][]{{1, 2, 3, 4, 5}}));
