@@ -1,9 +1,7 @@
 package algorithm.tree;
 
 /**
- * <p>
- *
- * </p>
+ * 非递归解法，可以考虑回文字符串的判断，广度优先遍历每一层，每一层都是回文字符串就是对称树
  *
  * @author O
  * @version 1.0
@@ -26,6 +24,7 @@ public class SymmetricTree {
 		leaf2.right = leaf6;
 
 		System.out.println(isSymmetric(root));
+		System.out.println(isSymmetric1(root));
 
 	}
 
@@ -36,6 +35,11 @@ public class SymmetricTree {
 		return isSymmetric(root.left, root.right);
 	}
 
+	/**
+	 * 方法定义：左右两颗树是否是对称的
+	 * <p>
+	 * 左右值相等，并且a的左子树与b的右子树对称，a的右子树与b左子树对称
+	 */
 	static boolean isSymmetric(TreeNode left, TreeNode right) {
 		//为空，递归结束条件
 		if (left == null && right == null) {
@@ -50,5 +54,25 @@ public class SymmetricTree {
 			return false;
 		}
 		return isSymmetric(left.left, right.right) && isSymmetric(left.right, right.left);
+	}
+
+	static boolean isSymmetric1(TreeNode cur) {
+		if (cur == null) {
+			return true;
+		}
+		return isSymmetric1(cur.left, cur.right);
+	}
+
+	static boolean isSymmetric1(TreeNode a, TreeNode b) {
+		if (a == null && b == null) {
+			return true;
+		}
+		if (a == null || b == null) {
+			return false;
+		}
+		if (a.val != b.val) {
+			return false;
+		}
+		return isSymmetric1(a.left, b.right) && isSymmetric1(a.right, b.left);
 	}
 }

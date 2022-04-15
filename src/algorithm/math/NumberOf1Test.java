@@ -12,7 +12,8 @@ package algorithm.math;
 public class NumberOf1Test {
 	public static void main(String[] args) {
 		System.out.println(numberOf1(12));
-
+		System.out.println(numberOf1(123));
+		System.out.println(numberOf1(1231));
 	}
 
 	/**

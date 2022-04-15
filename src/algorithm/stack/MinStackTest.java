@@ -4,7 +4,7 @@ import java.util.Stack;
 
 /**
  * <p>
- *
+ * 最小栈，思路：一个真实栈，一个最小栈
  * </p>
  *
  * @author O
@@ -45,6 +45,7 @@ class MinStack {
 		realStack.push(x);
 		if (!minStack.empty()) {
 			boolean isSmaller = minStack.peek() > x;
+			//关键：如果插入的值不小于最小值，则重复写入一个最小值
 			minStack.push(isSmaller ? x : minStack.peek());
 		} else {
 			minStack.push(x);

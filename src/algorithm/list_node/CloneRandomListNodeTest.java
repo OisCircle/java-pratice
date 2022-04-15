@@ -48,6 +48,12 @@ public class CloneRandomListNodeTest {
 		}
 	}
 
+
+	/*
+	* 1：每个节点，复制多一个节点在其后面
+	* 2：复制后的节点的random，可以通过复制前的节点的random，再取next得到
+	* 3：拆分链表
+	*/
 	static RandomListNode clone(RandomListNode pHead) {
 		if (pHead == null) {
 			return null;

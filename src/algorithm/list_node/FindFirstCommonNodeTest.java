@@ -2,7 +2,9 @@ package algorithm.list_node;
 
 /**
  * <p>
+ * https://www.cnblogs.com/liulongtao/p/13955929.html
  *
+ * 指针交换法更加容易实现
  * </p>
  *
  * @author O
@@ -26,6 +28,7 @@ public class FindFirstCommonNodeTest {
 		n7.next = n4;
 		System.out.println(findFirstCommonNode(n1, n7).val);
 	}
+
 
 	static ListNode findFirstCommonNode(ListNode pHead1, ListNode pHead2) {
 		ListNode a = pHead1, b = pHead2;
